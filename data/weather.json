@@ -1,0 +1,1664 @@
+[
+  {
+    "city": "Москва",
+    "data": [
+      {
+        "date": "2025-11-01",
+        "periods": {
+          "morning": { "temperature": -1, "precipitation": 0.5, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "мокрый снег" },
+          "day": { "temperature": 2, "precipitation": 1.0, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "дождь со снегом" },
+          "evening": { "temperature": 0, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "night": { "temperature": -3, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-02",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -2, "precipitation": 0, "visibility": 8, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 9, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-03",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 7, "wind_speed": 2.3, "weather_phenomenon": "туман" },
+          "day": { "temperature": -2, "precipitation": 0.2, "visibility": 6, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "evening": { "temperature": -3, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "night": { "temperature": -7, "precipitation": 0.4, "visibility": 4, "wind_speed": 5.0, "weather_phenomenon": "метель" }
+        }
+      },
+      {
+        "date": "2025-11-04",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 3, "wind_speed": 5.5, "weather_phenomenon": "метель" },
+          "day": { "temperature": -5, "precipitation": 0, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -6, "precipitation": 0, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -9, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-05",
+        "periods": {
+          "morning": { "temperature": -10, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -11, "precipitation": 0, "visibility": 10, "wind_speed": 1.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-06",
+        "periods": {
+          "morning": { "temperature": -9, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "day": { "temperature": -5, "precipitation": 0.6, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -6, "precipitation": 1.2, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -8, "precipitation": 0.7, "visibility": 4, "wind_speed": 5.2, "weather_phenomenon": "метель" }
+        }
+      },
+      {
+        "date": "2025-11-07",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0.2, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-08",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -4, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -5, "precipitation": 0, "visibility": 9, "wind_speed": 2.1, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -9, "precipitation": 0, "visibility": 10, "wind_speed": 1.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-09",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -2, "precipitation": 0.3, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -3, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "night": { "temperature": -7, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-10",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -2, "precipitation": 0, "visibility": 8, "wind_speed": 2.6, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -6, "precipitation": 0, "visibility": 9, "wind_speed": 2.2, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-11",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -1, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "night": { "temperature": -5, "precipitation": 0.4, "visibility": 6, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-12",
+        "periods": {
+          "morning": { "temperature": -3, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 1, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": 0, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -4, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-13",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -2, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 1.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-14",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0.3, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "снег" },
+          "day": { "temperature": -3, "precipitation": 0.7, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -4, "precipitation": 0.9, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -8, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.0, "weather_phenomenon": "метель" }
+        }
+      },
+      {
+        "date": "2025-11-15",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0.1, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "метель" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-16",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.2, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 1.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-18",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-19",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.4, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.1, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-20",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-21",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-22",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 1.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-23",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.3, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-25",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.9, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 4.9, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.3, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-26",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-27",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 1.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-28",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-29",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.5, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.2, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-30",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.2, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 1.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-03",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-04",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.4, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-05",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.0, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.4, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-06",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-07",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-08",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-09",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.6, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-10",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-12",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 1.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-13",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-14",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-15",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.1, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-16",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-17",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-18",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-19",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-20",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-21",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-22",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-23",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-24",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.6, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-25",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.2, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-26",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-27",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-28",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-29",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-30",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      }
+    ]
+  },
+  {
+    "city": "Санкт-Петербург",
+    "data": [
+      {
+        "date": "2025-11-01",
+        "periods": {
+          "morning": { "temperature": 1, "precipitation": 2.0, "visibility": 6, "wind_speed": 5.0, "weather_phenomenon": "дождь" },
+          "day": { "temperature": 3, "precipitation": 3.5, "visibility": 5, "wind_speed": 6.2, "weather_phenomenon": "сильный дождь" },
+          "evening": { "temperature": 2, "precipitation": 1.8, "visibility": 4, "wind_speed": 5.8, "weather_phenomenon": "дождь" },
+          "night": { "temperature": 0, "precipitation": 0.5, "visibility": 7, "wind_speed": 4.5, "weather_phenomenon": "моросящий дождь" }
+        }
+      },
+      {
+        "date": "2025-11-02",
+        "periods": {
+          "morning": { "temperature": -1, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.0, "weather_phenomenon": "мокрый снег" },
+          "day": { "temperature": 1, "precipitation": 0.8, "visibility": 7, "wind_speed": 4.8, "weather_phenomenon": "дождь со снегом" },
+          "evening": { "temperature": 0, "precipitation": 0.3, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "night": { "temperature": -2, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-03",
+        "periods": {
+          "morning": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 10, "wind_speed": 3.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -4, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-04",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -2, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -3, "precipitation": 0.4, "visibility": 5, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.2, "visibility": 6, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-05",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 10, "wind_speed": 3.2, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-06",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -2, "precipitation": 1.0, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -3, "precipitation": 1.5, "visibility": 4, "wind_speed": 5.0, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "метель" }
+        }
+      },
+      {
+        "date": "2025-11-07",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.3, "visibility": 7, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-08",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-09",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-10",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-11",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-12",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-13",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-14",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-15",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-16",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.8, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 4.8, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.2, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-18",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-19",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-20",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-21",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-22",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-23",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-25",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.6, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-26",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 3.9, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 4.9, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.3, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-27",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-28",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-29",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-30",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-03",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-04",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-05",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.7, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-06",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.0, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.4, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-07",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-08",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-09",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-10",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-12",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-13",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-14",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-15",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-16",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.1, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-17",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-18",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-19",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-20",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-21",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-22",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-23",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-24",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.8, "visibility": 5, "wind_speed": 5.1, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.4, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-25",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 7, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 2.9, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-26",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "day": { "temperature": -1, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.2, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -6, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-27",
+        "periods": {
+          "morning": { "temperature": -4, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": 0, "precipitation": 0, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -1, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -5, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-28",
+        "periods": {
+          "morning": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -2, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-29",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -5, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -9, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-30",
+        "periods": {
+          "morning": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -3, "precipitation": 0, "visibility": 9, "wind_speed": 3.6, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "periods": {
+          "morning": { "temperature": -5, "precipitation": 0.2, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -1, "precipitation": 0.5, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -2, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.1, "weather_phenomenon": "снег" },
+          "night": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "слабый снег" }
+        }
+      }
+    ]
+  },
+  {
+    "city": "Новосибирск",
+    "data": [
+      {
+        "date": "2025-11-01",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0.5, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -6, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "night": { "temperature": -12, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-02",
+        "periods": {
+          "morning": { "temperature": -10, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -13, "precipitation": 0, "visibility": 10, "wind_speed": 2.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-03",
+        "periods": {
+          "morning": { "temperature": -11, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -7, "precipitation": 0.4, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -8, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "night": { "temperature": -14, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-04",
+        "periods": {
+          "morning": { "temperature": -12, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -9, "precipitation": 0, "visibility": 8, "wind_speed": 2.7, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -15, "precipitation": 0, "visibility": 9, "wind_speed": 2.4, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-05",
+        "periods": {
+          "morning": { "temperature": -9, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "day": { "temperature": -5, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -6, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.0, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -12, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.4, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-06",
+        "periods": {
+          "morning": { "temperature": -8, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -4, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -5, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -11, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-07",
+        "periods": {
+          "morning": { "temperature": -10, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -6, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -13, "precipitation": 0, "visibility": 10, "wind_speed": 2.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-08",
+        "periods": {
+          "morning": { "temperature": -12, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -8, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -9, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "night": { "temperature": -15, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-09",
+        "periods": {
+          "morning": { "temperature": -13, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -9, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -10, "precipitation": 0, "visibility": 8, "wind_speed": 2.8, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -16, "precipitation": 0, "visibility": 9, "wind_speed": 2.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-10",
+        "periods": {
+          "morning": { "temperature": -10, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "day": { "temperature": -6, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -7, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.1, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -13, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.5, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-11",
+        "periods": {
+          "morning": { "temperature": -9, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -5, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -6, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -12, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-12",
+        "periods": {
+          "morning": { "temperature": -11, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -7, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -14, "precipitation": 0, "visibility": 10, "wind_speed": 2.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-13",
+        "periods": {
+          "morning": { "temperature": -13, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -9, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -10, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "night": { "temperature": -16, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-14",
+        "periods": {
+          "morning": { "temperature": -14, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -10, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -11, "precipitation": 0, "visibility": 8, "wind_speed": 2.9, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -17, "precipitation": 0, "visibility": 9, "wind_speed": 2.6, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-15",
+        "periods": {
+          "morning": { "temperature": -11, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "day": { "temperature": -7, "precipitation": 0.7, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -8, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.2, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -14, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.6, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-16",
+        "periods": {
+          "morning": { "temperature": -10, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -6, "precipitation": 0, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -7, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -13, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "periods": {
+          "morning": { "temperature": -12, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -8, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -9, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -15, "precipitation": 0, "visibility": 10, "wind_speed": 2.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-18",
+        "periods": {
+          "morning": { "temperature": -14, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -10, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -11, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "night": { "temperature": -17, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-19",
+        "periods": {
+          "morning": { "temperature": -15, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -11, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -12, "precipitation": 0, "visibility": 8, "wind_speed": 3.0, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -18, "precipitation": 0, "visibility": 9, "wind_speed": 2.7, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-20",
+        "periods": {
+          "morning": { "temperature": -12, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "day": { "temperature": -8, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -9, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.3, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -15, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.7, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-21",
+        "periods": {
+          "morning": { "temperature": -11, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -7, "precipitation": 0, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -8, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -14, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-22",
+        "periods": {
+          "morning": { "temperature": -13, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -9, "precipitation": 0, "visibility": 10, "wind_speed": 3.1, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -10, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -16, "precipitation": 0, "visibility": 10, "wind_speed": 2.5, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-23",
+        "periods": {
+          "morning": { "temperature": -15, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -11, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -12, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "night": { "temperature": -18, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "periods": {
+          "morning": { "temperature": -16, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -12, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -13, "precipitation": 0, "visibility": 8, "wind_speed": 3.1, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -19, "precipitation": 0, "visibility": 9, "wind_speed": 2.8, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-25",
+        "periods": {
+          "morning": { "temperature": -13, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "day": { "temperature": -9, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.1, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -10, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.4, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -16, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.8, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-11-26",
+        "periods": {
+          "morning": { "temperature": -12, "precipitation": 0.1, "visibility": 7, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -8, "precipitation": 0, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -9, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -15, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-27",
+        "periods": {
+          "morning": { "temperature": -14, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -10, "precipitation": 0, "visibility": 10, "wind_speed": 3.2, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -11, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -17, "precipitation": 0, "visibility": 10, "wind_speed": 2.6, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-11-28",
+        "periods": {
+          "morning": { "temperature": -16, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -12, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -13, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "night": { "temperature": -19, "precipitation": 0.2, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-11-29",
+        "periods": {
+          "morning": { "temperature": -17, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -13, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -14, "precipitation": 0, "visibility": 8, "wind_speed": 3.2, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -20, "precipitation": 0, "visibility": 9, "wind_speed": 2.9, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-11-30",
+        "periods": {
+          "morning": { "temperature": -14, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "day": { "temperature": -10, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.2, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -11, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.5, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -17, "precipitation": 0.5, "visibility": 5, "wind_speed": 4.9, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "periods": {
+          "morning": { "temperature": -13, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -9, "precipitation": 0, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -10, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -16, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "periods": {
+          "morning": { "temperature": -15, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -11, "precipitation": 0, "visibility": 10, "wind_speed": 3.3, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -12, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -18, "precipitation": 0, "visibility": 10, "wind_speed": 2.7, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-03",
+        "periods": {
+          "morning": { "temperature": -17, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -13, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -14, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "night": { "temperature": -20, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-04",
+        "periods": {
+          "morning": { "temperature": -18, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -14, "precipitation": 0, "visibility": 9, "wind_speed": 3.6, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -15, "precipitation": 0, "visibility": 8, "wind_speed": 3.3, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -21, "precipitation": 0, "visibility": 9, "wind_speed": 3.0, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-05",
+        "periods": {
+          "morning": { "temperature": -15, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "day": { "temperature": -11, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.3, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -12, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.6, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -18, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.0, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-06",
+        "periods": {
+          "morning": { "temperature": -14, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -10, "precipitation": 0, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -11, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -17, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-07",
+        "periods": {
+          "morning": { "temperature": -16, "precipitation": 0, "visibility": 10, "wind_speed": 3.1, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -12, "precipitation": 0, "visibility": 10, "wind_speed": 3.4, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -13, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -19, "precipitation": 0, "visibility": 10, "wind_speed": 2.8, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-08",
+        "periods": {
+          "morning": { "temperature": -18, "precipitation": 0.1, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -14, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -15, "precipitation": 0.6, "visibility": 6, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "night": { "temperature": -21, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-09",
+        "periods": {
+          "morning": { "temperature": -19, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -15, "precipitation": 0, "visibility": 9, "wind_speed": 3.7, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -16, "precipitation": 0, "visibility": 8, "wind_speed": 3.4, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -22, "precipitation": 0, "visibility": 9, "wind_speed": 3.1, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-10",
+        "periods": {
+          "morning": { "temperature": -16, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "day": { "temperature": -12, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.4, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -13, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.7, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -19, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.1, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "periods": {
+          "morning": { "temperature": -15, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -11, "precipitation": 0, "visibility": 8, "wind_speed": 3.9, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -12, "precipitation": 0, "visibility": 9, "wind_speed": 3.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -18, "precipitation": 0, "visibility": 10, "wind_speed": 3.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-12",
+        "periods": {
+          "morning": { "temperature": -17, "precipitation": 0, "visibility": 10, "wind_speed": 3.2, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -13, "precipitation": 0, "visibility": 10, "wind_speed": 3.5, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -14, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -20, "precipitation": 0, "visibility": 10, "wind_speed": 2.9, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-13",
+        "periods": {
+          "morning": { "temperature": -19, "precipitation": 0.1, "visibility": 8, "wind_speed": 4.0, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -15, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -16, "precipitation": 0.6, "visibility": 6, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "night": { "temperature": -22, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-14",
+        "periods": {
+          "morning": { "temperature": -20, "precipitation": 0, "visibility": 9, "wind_speed": 3.6, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -16, "precipitation": 0, "visibility": 9, "wind_speed": 3.8, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -17, "precipitation": 0, "visibility": 8, "wind_speed": 3.5, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -23, "precipitation": 0, "visibility": 9, "wind_speed": 3.2, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-15",
+        "periods": {
+          "morning": { "temperature": -17, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "day": { "temperature": -13, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.5, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -14, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.8, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -20, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.2, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-16",
+        "periods": {
+          "morning": { "temperature": -16, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -12, "precipitation": 0, "visibility": 8, "wind_speed": 4.0, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -13, "precipitation": 0, "visibility": 9, "wind_speed": 3.7, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -19, "precipitation": 0, "visibility": 10, "wind_speed": 3.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-17",
+        "periods": {
+          "morning": { "temperature": -18, "precipitation": 0, "visibility": 10, "wind_speed": 3.3, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -14, "precipitation": 0, "visibility": 10, "wind_speed": 3.6, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -15, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -21, "precipitation": 0, "visibility": 10, "wind_speed": 3.0, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-18",
+        "periods": {
+          "morning": { "temperature": -20, "precipitation": 0.1, "visibility": 8, "wind_speed": 4.1, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -16, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -17, "precipitation": 0.6, "visibility": 6, "wind_speed": 5.1, "weather_phenomenon": "снег" },
+          "night": { "temperature": -23, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.3, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-19",
+        "periods": {
+          "morning": { "temperature": -21, "precipitation": 0, "visibility": 9, "wind_speed": 3.7, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -17, "precipitation": 0, "visibility": 9, "wind_speed": 3.9, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -18, "precipitation": 0, "visibility": 8, "wind_speed": 3.6, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -24, "precipitation": 0, "visibility": 9, "wind_speed": 3.3, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-20",
+        "periods": {
+          "morning": { "temperature": -18, "precipitation": 0.3, "visibility": 6, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "day": { "temperature": -14, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.6, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -15, "precipitation": 0.9, "visibility": 4, "wind_speed": 5.9, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -21, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.3, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-21",
+        "periods": {
+          "morning": { "temperature": -17, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.4, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -13, "precipitation": 0, "visibility": 8, "wind_speed": 4.1, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -14, "precipitation": 0, "visibility": 9, "wind_speed": 3.8, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -20, "precipitation": 0, "visibility": 10, "wind_speed": 3.3, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-22",
+        "periods": {
+          "morning": { "temperature": -19, "precipitation": 0, "visibility": 10, "wind_speed": 3.4, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -15, "precipitation": 0, "visibility": 10, "wind_speed": 3.7, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -16, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -22, "precipitation": 0, "visibility": 10, "wind_speed": 3.1, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-23",
+        "periods": {
+          "morning": { "temperature": -21, "precipitation": 0.1, "visibility": 8, "wind_speed": 4.2, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -17, "precipitation": 0.4, "visibility": 7, "wind_speed": 4.9, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -18, "precipitation": 0.6, "visibility": 6, "wind_speed": 5.2, "weather_phenomenon": "снег" },
+          "night": { "temperature": -24, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.4, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-24",
+        "periods": {
+          "morning": { "temperature": -22, "precipitation": 0, "visibility": 9, "wind_speed": 3.8, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -18, "precipitation": 0, "visibility": 9, "wind_speed": 4.0, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -19, "precipitation": 0, "visibility": 8, "wind_speed": 3.7, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -25, "precipitation": 0, "visibility": 9, "wind_speed": 3.4, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-25",
+        "periods": {
+          "morning": { "temperature": -19, "precipitation": 0.3, "visibility": 6, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "day": { "temperature": -15, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.7, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -16, "precipitation": 0.9, "visibility": 4, "wind_speed": 6.0, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -22, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.4, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-26",
+        "periods": {
+          "morning": { "temperature": -18, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.5, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -14, "precipitation": 0, "visibility": 8, "wind_speed": 4.2, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -15, "precipitation": 0, "visibility": 9, "wind_speed": 3.9, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -21, "precipitation": 0, "visibility": 10, "wind_speed": 3.4, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-27",
+        "periods": {
+          "morning": { "temperature": -20, "precipitation": 0, "visibility": 10, "wind_speed": 3.5, "weather_phenomenon": "ясно" },
+          "day": { "temperature": -16, "precipitation": 0, "visibility": 10, "wind_speed": 3.8, "weather_phenomenon": "ясно" },
+          "evening": { "temperature": -17, "precipitation": 0, "visibility": 9, "wind_speed": 3.6, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -23, "precipitation": 0, "visibility": 10, "wind_speed": 3.2, "weather_phenomenon": "ясно" }
+        }
+      },
+      {
+        "date": "2025-12-28",
+        "periods": {
+          "morning": { "temperature": -22, "precipitation": 0.1, "visibility": 8, "wind_speed": 4.3, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -18, "precipitation": 0.4, "visibility": 7, "wind_speed": 5.0, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -19, "precipitation": 0.6, "visibility": 6, "wind_speed": 5.3, "weather_phenomenon": "снег" },
+          "night": { "temperature": -25, "precipitation": 0.2, "visibility": 8, "wind_speed": 4.5, "weather_phenomenon": "слабый снег" }
+        }
+      },
+      {
+        "date": "2025-12-29",
+        "periods": {
+          "morning": { "temperature": -23, "precipitation": 0, "visibility": 9, "wind_speed": 3.9, "weather_phenomenon": "облачно" },
+          "day": { "temperature": -19, "precipitation": 0, "visibility": 9, "wind_speed": 4.1, "weather_phenomenon": "облачно" },
+          "evening": { "temperature": -20, "precipitation": 0, "visibility": 8, "wind_speed": 3.8, "weather_phenomenon": "облачно" },
+          "night": { "temperature": -26, "precipitation": 0, "visibility": 9, "wind_speed": 3.5, "weather_phenomenon": "облачно" }
+        }
+      },
+      {
+        "date": "2025-12-30",
+        "periods": {
+          "morning": { "temperature": -20, "precipitation": 0.3, "visibility": 6, "wind_speed": 5.1, "weather_phenomenon": "снег" },
+          "day": { "temperature": -16, "precipitation": 0.7, "visibility": 5, "wind_speed": 5.8, "weather_phenomenon": "снег" },
+          "evening": { "temperature": -17, "precipitation": 0.9, "visibility": 4, "wind_speed": 6.1, "weather_phenomenon": "сильный снег" },
+          "night": { "temperature": -23, "precipitation": 0.5, "visibility": 5, "wind_speed": 5.5, "weather_phenomenon": "снег" }
+        }
+      },
+      {
+        "date": "2025-12-31",
+        "periods": {
+          "morning": { "temperature": -19, "precipitation": 0.1, "visibility": 7, "wind_speed": 4.6, "weather_phenomenon": "слабый снег" },
+          "day": { "temperature": -15, "precipitation": 0, "visibility": 8, "wind_speed": 4.3, "weather_phenomenon": "переменная облачность" },
+          "evening": { "temperature": -16, "precipitation": 0, "visibility": 9, "wind_speed": 4.0, "weather_phenomenon": "переменная облачность" },
+          "night": { "temperature": -22, "precipitation": 0, "visibility": 10, "wind_speed": 3.5, "weather_phenomenon": "ясно" }
+        }
+      }
+    ]
+  }
+]
