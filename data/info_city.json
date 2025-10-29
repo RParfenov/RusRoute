@@ -1,0 +1,804 @@
+{
+  "cities": {
+    "Moscow": {
+      "name": "Москва",
+      "width": 55.755826,
+      "longitude": 37.617298,
+      "population": 13274285,
+      "region": "Москва",
+      "requests_to_Yandex_Wordstat": 104352986
+    },
+    "Saint_Petersburg": {
+      "name": "Санкт-Петербург",
+      "width": 59.93428,
+      "longitude": 30.335099,
+      "population": 5601919,
+      "region": "Санкт-Петербург",
+      "requests_to_Yandex_Wordstat": 49231054
+    },
+    "Novosibirsk": {
+      "name": "Новосибирск",
+      "width": 55.008353,
+      "longitude": 82.935733,
+      "population": 1633595,
+      "region": "Новосибирская область",
+      "requests_to_Yandex_Wordstat": 16335950
+    },
+    "Yekaterinburg": {
+      "name": "Екатеринбург",
+      "width": 56.838926,
+      "longitude": 60.605702,
+      "population": 1544376,
+      "region": "Свердловская область",
+      "requests_to_Yandex_Wordstat": 15443760
+    },
+    "Kazan": {
+      "name": "Казань",
+      "width": 55.78874,
+      "longitude": 49.12214,
+      "population": 1321029,
+      "region": "Татарстан",
+      "requests_to_Yandex_Wordstat": 13210290
+    },
+    "Nizhny_Novgorod": {
+      "name": "Нижний Новгород",
+      "width": 56.296504,
+      "longitude": 43.936059,
+      "population": 1269340,
+      "region": "Нижегородская область",
+      "requests_to_Yandex_Wordstat": 12693400
+    },
+    "Chelyabinsk": {
+      "name": "Челябинск",
+      "width": 55.154019,
+      "longitude": 61.429146,
+      "population": 1205999,
+      "region": "Челябинская область",
+      "requests_to_Yandex_Wordstat": 12059990
+    },
+    "Samara": {
+      "name": "Самара",
+      "width": 53.195883,
+      "longitude": 50.100211,
+      "population": 1164684,
+      "region": "Самарская область",
+      "requests_to_Yandex_Wordstat": 11646840
+    },
+    "Omsk": {
+      "name": "Омск",
+      "width": 54.988551,
+      "longitude": 73.324957,
+      "population": 1154009,
+      "region": "Омская область",
+      "requests_to_Yandex_Wordstat": 11540090
+    },
+    "Rostov_on_Don": {
+      "name": "Ростов-на-Дону",
+      "width": 47.235714,
+      "longitude": 39.701576,
+      "population": 1137704,
+      "region": "Ростовская область",
+      "requests_to_Yandex_Wordstat": 11377040
+    },
+    "Ufa": {
+      "name": "Уфа",
+      "width": 54.734796,
+      "longitude": 55.957858,
+      "population": 1127028,
+      "region": "Башкортостан",
+      "requests_to_Yandex_Wordstat": 11270280
+    },
+    "Krasnoyarsk": {
+      "name": "Красноярск",
+      "width": 56.018389,
+      "longitude": 92.867172,
+      "population": 1093227,
+      "region": "Красноярский край",
+      "requests_to_Yandex_Wordstat": 10932270
+    },
+    "Voronezh": {
+      "name": "Воронеж",
+      "width": 51.672042,
+      "longitude": 39.184304,
+      "population": 1066770,
+      "region": "Воронежская область",
+      "requests_to_Yandex_Wordstat": 10667700
+    },
+    "Perm": {
+      "name": "Пермь",
+      "width": 58.010464,
+      "longitude": 56.250174,
+      "population": 1057049,
+      "region": "Пермский край",
+      "requests_to_Yandex_Wordstat": 10570490
+    },
+    "Volgograd": {
+      "name": "Волгоград",
+      "width": 48.708048,
+      "longitude": 44.513308,
+      "population": 1019876,
+      "region": "Волгоградская область",
+      "requests_to_Yandex_Wordstat": 10198760
+    },
+    "Saratov": {
+      "name": "Саратов",
+      "width": 51.540566,
+      "longitude": 46.008611,
+      "population": 839628,
+      "region": "Саратовская область",
+      "requests_to_Yandex_Wordstat": 8396280
+    },
+    "Krasnodar": {
+      "name": "Краснодар",
+      "width": 45.04484,
+      "longitude": 38.976031,
+      "population": 874302,
+      "region": "Краснодарский край",
+      "requests_to_Yandex_Wordstat": 8743020
+    },
+    "Tolyatti": {
+      "name": "Тольятти",
+      "width": 53.508807,
+      "longitude": 49.41905,
+      "population": 688629,
+      "region": "Самарская область",
+      "requests_to_Yandex_Wordstat": 6886290
+    },
+    "Izhevsk": {
+      "name": "Ижевск",
+      "width": 56.861952,
+      "longitude": 53.232986,
+      "population": 653024,
+      "region": "Удмуртия",
+      "requests_to_Yandex_Wordstat": 6530240
+    },
+    "Barnaul": {
+      "name": "Барнаул",
+      "width": 53.354934,
+      "longitude": 83.76938,
+      "population": 631815,
+      "region": "Алтайский край",
+      "requests_to_Yandex_Wordstat": 6318150
+    },
+    "Ulyanovsk": {
+      "name": "Ульяновск",
+      "width": 54.318163,
+      "longitude": 48.383136,
+      "population": 618183,
+      "region": "Ульяновская область",
+      "requests_to_Yandex_Wordstat": 6181830
+    },
+    "Irkutsk": {
+      "name": "Иркутск",
+      "width": 52.286903,
+      "longitude": 104.285959,
+      "population": 623507,
+      "region": "Иркутская область",
+      "requests_to_Yandex_Wordstat": 6235070
+    },
+    "Khabarovsk": {
+      "name": "Хабаровск",
+      "width": 48.480818,
+      "longitude": 135.093584,
+      "population": 616233,
+      "region": "Хабаровский край",
+      "requests_to_Yandex_Wordstat": 6162330
+    },
+    "Yaroslavl": {
+      "name": "Ярославль",
+      "width": 57.629872,
+      "longitude": 39.873684,
+      "population": 597227,
+      "region": "Ярославская область",
+      "requests_to_Yandex_Wordstat": 5972270
+    },
+    "Vladivostok": {
+      "name": "Владивосток",
+      "width": 43.115065,
+      "longitude": 131.885556,
+      "population": 603519,
+      "region": "Приморский край",
+      "requests_to_Yandex_Wordstat": 6035190
+    },
+    "Makhachkala": {
+      "name": "Махачкала",
+      "width": 42.976388,
+      "longitude": 47.502301,
+      "population": 629842,
+      "region": "Дагестан",
+      "requests_to_Yandex_Wordstat": 6298420
+    },
+    "Tomsk": {
+      "name": "Томск",
+      "width": 56.49771,
+      "longitude": 84.974372,
+      "population": 581675,
+      "region": "Томская область",
+      "requests_to_Yandex_Wordstat": 5816750
+    },
+    "Orenburg": {
+      "name": "Оренбург",
+      "width": 51.772773,
+      "longitude": 55.098007,
+      "population": 574524,
+      "region": "Оренбургская область",
+      "requests_to_Yandex_Wordstat": 5745240
+    },
+    "Kemerovo": {
+      "name": "Кемерово",
+      "width": 55.333333,
+      "longitude": 86.083333,
+      "population": 552547,
+      "region": "Кемеровская область",
+      "requests_to_Yandex_Wordstat": 5525470
+    },
+    "Novokuznetsk": {
+      "name": "Новокузнецк",
+      "width": 53.759581,
+      "longitude": 87.121574,
+      "population": 552678,
+      "region": "Кемеровская область",
+      "requests_to_Yandex_Wordstat": 5526780
+    },
+    "Ryazan": {
+      "name": "Рязань",
+      "width": 54.626984,
+      "longitude": 39.734288,
+      "population": 541855,
+      "region": "Рязанская область",
+      "requests_to_Yandex_Wordstat": 5418550
+    },
+    "Astrakhan": {
+      "name": "Астрахань",
+      "width": 46.358806,
+      "longitude": 48.05991,
+      "population": 528574,
+      "region": "Астраханская область",
+      "requests_to_Yandex_Wordstat": 5285740
+    },
+    "Naberezhnye_Chelny": {
+      "name": "Набережные Челны",
+      "width": 55.729785,
+      "longitude": 52.395535,
+      "population": 533607,
+      "region": "Татарстан",
+      "requests_to_Yandex_Wordstat": 5336070
+    },
+    "Penza": {
+      "name": "Пенза",
+      "width": 53.19524,
+      "longitude": 45.018562,
+      "population": 518017,
+      "region": "Пензенская область",
+      "requests_to_Yandex_Wordstat": 5180170
+    },
+    "Lipetsk": {
+      "name": "Липецк",
+      "width": 52.603661,
+      "longitude": 39.591966,
+      "population": 505680,
+      "region": "Липецкая область",
+      "requests_to_Yandex_Wordstat": 5056800
+    },
+    "Kirov": {
+      "name": "Киров",
+      "width": 58.596646,
+      "longitude": 49.660045,
+      "population": 496557,
+      "region": "Кировская область",
+      "requests_to_Yandex_Wordstat": 4965570
+    },
+    "Cheboksary": {
+      "name": "Чебоксары",
+      "width": 56.132465,
+      "longitude": 47.247408,
+      "population": 492966,
+      "region": "Чувашия",
+      "requests_to_Yandex_Wordstat": 4929660
+    },
+    "Tula": {
+      "name": "Тула",
+      "width": 54.196044,
+      "longitude": 37.618433,
+      "population": 481213,
+      "region": "Тульская область",
+      "requests_to_Yandex_Wordstat": 4812130
+    },
+    "Kaliningrad": {
+      "name": "Калининград",
+      "width": 54.706408,
+      "longitude": 20.51095,
+      "population": 494668,
+      "region": "Калининградская область",
+      "requests_to_Yandex_Wordstat": 4946680
+    },
+    "Kursk": {
+      "name": "Курск",
+      "width": 51.73733,
+      "longitude": 36.187354,
+      "population": 443162,
+      "region": "Курская область",
+      "requests_to_Yandex_Wordstat": 4431620
+    },
+    "Ulan_Ude": {
+      "name": "Улан-Удэ",
+      "width": 51.823879,
+      "longitude": 107.599746,
+      "population": 437031,
+      "region": "Бурятия",
+      "requests_to_Yandex_Wordstat": 4370310
+    },
+    "Stavropol": {
+      "name": "Ставрополь",
+      "width": 45.04484,
+      "longitude": 41.968697,
+      "population": 442256,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 4422560
+    },
+    "Sochi": {
+      "name": "Сочи",
+      "width": 43.585478,
+      "longitude": 39.723066,
+      "population": 466078,
+      "region": "Краснодарский край",
+      "requests_to_Yandex_Wordstat": 4660780
+    },
+    "Tver": {
+      "name": "Тверь",
+      "width": 56.858361,
+      "longitude": 35.920412,
+      "population": 424906,
+      "region": "Тверская область",
+      "requests_to_Yandex_Wordstat": 4249060
+    },
+    "Magnitogorsk": {
+      "name": "Магнитогорск",
+      "width": 53.395009,
+      "longitude": 59.061939,
+      "population": 408401,
+      "region": "Челябинская область",
+      "requests_to_Yandex_Wordstat": 4084010
+    },
+    "Ivanovo": {
+      "name": "Иваново",
+      "width": 57.000359,
+      "longitude": 40.973319,
+      "population": 400597,
+      "region": "Ивановская область",
+      "requests_to_Yandex_Wordstat": 4005970
+    },
+    "Bryansk": {
+      "name": "Брянск",
+      "width": 53.252097,
+      "longitude": 34.371668,
+      "population": 395529,
+      "region": "Брянская область",
+      "requests_to_Yandex_Wordstat": 3955290
+    },
+    "Sevastopol": {
+      "name": "Севастополь",
+      "width": 44.61665,
+      "longitude": 33.525367,
+      "population": 540696,
+      "region": "Севастополь",
+      "requests_to_Yandex_Wordstat": 5406960
+    },
+    "Simferopol": {
+      "name": "Симферополь",
+      "width": 44.952117,
+      "longitude": 34.102472,
+      "population": 335880,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 3358800
+    },
+    "Veliky_Novgorod": {
+      "name": "Великий Новгород",
+      "width": 58.521244,
+      "longitude": 31.279988,
+      "population": 230053,
+      "region": "Новгородская область",
+      "requests_to_Yandex_Wordstat": 2300530
+    },
+    "Vladimir": {
+      "name": "Владимир",
+      "width": 56.129057,
+      "longitude": 40.406955,
+      "population": 347930,
+      "region": "Владимирская область",
+      "requests_to_Yandex_Wordstat": 3479300
+    },
+    "Suzdal": {
+      "name": "Суздаль",
+      "width": 56.411789,
+      "longitude": 40.431309,
+      "population": 10477,
+      "region": "Владимирская область",
+      "requests_to_Yandex_Wordstat": 104770
+    },
+    "Kostroma": {
+      "name": "Кострома",
+      "width": 57.767992,
+      "longitude": 40.925957,
+      "population": 280549,
+      "region": "Костромская область",
+      "requests_to_Yandex_Wordstat": 2805490
+    },
+    "Smolensk": {
+      "name": "Смоленск",
+      "width": 54.779324,
+      "longitude": 32.039675,
+      "population": 326049,
+      "region": "Смоленская область",
+      "requests_to_Yandex_Wordstat": 3260490
+    },
+    "Murmansk": {
+      "name": "Мурманск",
+      "width": 68.958529,
+      "longitude": 33.082659,
+      "population": 292270,
+      "region": "Мурманская область",
+      "requests_to_Yandex_Wordstat": 2922700
+    },
+    "Arkhangelsk": {
+      "name": "Архангельск",
+      "width": 64.540108,
+      "longitude": 40.543357,
+      "population": 356316,
+      "region": "Архангельская область",
+      "requests_to_Yandex_Wordstat": 3563160
+    },
+    "Vologda": {
+      "name": "Вологда",
+      "width": 59.218067,
+      "longitude": 39.897657,
+      "population": 302340,
+      "region": "Вологодская область",
+      "requests_to_Yandex_Wordstat": 3023400
+    },
+    "Pskov": {
+      "name": "Псков",
+      "width": 57.816691,
+      "longitude": 28.33444,
+      "population": 212039,
+      "region": "Псковская область",
+      "requests_to_Yandex_Wordstat": 2120390
+    },
+    "Petrozavodsk": {
+      "name": "Петрозаводск",
+      "width": 61.784971,
+      "longitude": 34.346916,
+      "population": 277170,
+      "region": "Карелия",
+      "requests_to_Yandex_Wordstat": 2771700
+    },
+    "Vyborg": {
+      "name": "Выборг",
+      "width": 60.719337,
+      "longitude": 28.749651,
+      "population": 83800,
+      "region": "Ленинградская область",
+      "requests_to_Yandex_Wordstat": 838000
+    },
+    "Sergiev_Posad": {
+      "name": "Сергиев Посад",
+      "width": 56.329284,
+      "longitude": 38.156442,
+      "population": 117083,
+      "region": "Московская область",
+      "requests_to_Yandex_Wordstat": 1170830
+    },
+    "Pereslavl_Zalesky": {
+      "name": "Переславль-Залесский",
+      "width": 56.737206,
+      "longitude": 38.865667,
+      "population": 45453,
+      "region": "Ярославская область",
+      "requests_to_Yandex_Wordstat": 454530
+    },
+    "Rostov_Veliky": {
+      "name": "Ростов Великий",
+      "width": 57.175495,
+      "longitude": 39.419595,
+      "population": 32310,
+      "region": "Ярославская область",
+      "requests_to_Yandex_Wordstat": 323100
+    },
+    "Belgorod": {
+      "name": "Белгород",
+      "width": 50.595566,
+      "longitude": 36.587059,
+      "population": 390733,
+      "region": "Белгородская область",
+      "requests_to_Yandex_Wordstat": 3907330
+    },
+    "Kurgan": {
+      "name": "Курган",
+      "width": 55.440061,
+      "longitude": 65.342411,
+      "population": 330290,
+      "region": "Курганская область",
+      "requests_to_Yandex_Wordstat": 3302900
+    },
+    "Oryol": {
+      "name": "Орёл",
+      "width": 52.965744,
+      "longitude": 36.063657,
+      "population": 317514,
+      "region": "Орловская область",
+      "requests_to_Yandex_Wordstat": 3175140
+    },
+    "Kaluga": {
+      "name": "Калуга",
+      "width": 54.529361,
+      "longitude": 36.275419,
+      "population": 341892,
+      "region": "Калужская область",
+      "requests_to_Yandex_Wordstat": 3418920
+    },
+    "Syktyvkar": {
+      "name": "Сыктывкар",
+      "width": 61.676417,
+      "longitude": 50.809908,
+      "population": 253235,
+      "region": "Коми",
+      "requests_to_Yandex_Wordstat": 2532350
+    },
+    "Chita": {
+      "name": "Чита",
+      "width": 52.031747,
+      "longitude": 113.495872,
+      "population": 308500,
+      "region": "Забайкальский край",
+      "requests_to_Yandex_Wordstat": 3085000
+    },
+    "Yuzhno_Sakhalinsk": {
+      "name": "Южно-Сахалинск",
+      "width": 46.954077,
+      "longitude": 142.736036,
+      "population": 181649,
+      "region": "Сахалинская область",
+      "requests_to_Yandex_Wordstat": 1816490
+    },
+    "Anapa": {
+      "name": "Анапа",
+      "width": 44.890404,
+      "longitude": 37.323576,
+      "population": 92538,
+      "region": "Краснодарский край",
+      "requests_to_Yandex_Wordstat": 925380
+    },
+    "Gelendzhik": {
+      "name": "Геленджик",
+      "width": 44.558807,
+      "longitude": 38.082966,
+      "population": 86156,
+      "region": "Краснодарский край",
+      "requests_to_Yandex_Wordstat": 861560
+    },
+    "Yalta": {
+      "name": "Ялта",
+      "width": 44.499482,
+      "longitude": 34.155535,
+      "population": 77293,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 772930
+    },
+    "Alushta": {
+      "name": "Алушта",
+      "width": 44.667446,
+      "longitude": 34.399347,
+      "population": 31242,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 312420
+    },
+    "Yevpatoria": {
+      "name": "Евпатория",
+      "width": 45.205067,
+      "longitude": 33.359889,
+      "population": 110474,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 1104740
+    },
+    "Feodosia": {
+      "name": "Феодосия",
+      "width": 45.041573,
+      "longitude": 35.381813,
+      "population": 69147,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 691470
+    },
+    "Kerch": {
+      "name": "Керчь",
+      "width": 45.356819,
+      "longitude": 36.474744,
+      "population": 153415,
+      "region": "Крым",
+      "requests_to_Yandex_Wordstat": 1534150
+    },
+    "Mineralnye_Vody": {
+      "name": "Минеральные Воды",
+      "width": 44.219487,
+      "longitude": 43.108263,
+      "population": 72481,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 724810
+    },
+    "Pyatigorsk": {
+      "name": "Пятигорск",
+      "width": 44.042392,
+      "longitude": 43.062923,
+      "population": 142165,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 1421650
+    },
+    "Essentuki": {
+      "name": "Ессентуки",
+      "width": 44.048803,
+      "longitude": 42.860706,
+      "population": 112506,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 1125060
+    },
+    "Kislovodsk": {
+      "name": "Кисловодск",
+      "width": 43.909483,
+      "longitude": 42.717776,
+      "population": 132408,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 1324080
+    },
+    "Zheleznovodsk": {
+      "name": "Железноводск",
+      "width": 44.123543,
+      "longitude": 43.031576,
+      "population": 26189,
+      "region": "Ставропольский край",
+      "requests_to_Yandex_Wordstat": 261890
+    },
+    "Derbent": {
+      "name": "Дербент",
+      "width": 42.067831,
+      "longitude": 48.292618,
+      "population": 123378,
+      "region": "Дагестан",
+      "requests_to_Yandex_Wordstat": 1233780
+    },
+    "Elista": {
+      "name": "Элиста",
+      "width": 46.307224,
+      "longitude": 44.251919,
+      "population": 106365,
+      "region": "Калмыкия",
+      "requests_to_Yandex_Wordstat": 1063650
+    },
+    "Naryan_Mar": {
+      "name": "Нарьян-Мар",
+      "width": 67.637596,
+      "longitude": 53.005253,
+      "population": 24264,
+      "region": "Ненецкий автономный округ",
+      "requests_to_Yandex_Wordstat": 242640
+    },
+    "Khanty_Mansiysk": {
+      "name": "Ханты-Мансийск",
+      "width": 61.009345,
+      "longitude": 69.096504,
+      "population": 114147,
+      "region": "Ханты-Мансийский автономный округ",
+      "requests_to_Yandex_Wordstat": 1141470
+    },
+    "Salekhard": {
+      "name": "Салехард",
+      "width": 66.532644,
+      "longitude": 66.633333,
+      "population": 52535,
+      "region": "Ямало-Ненецкий автономный округ",
+      "requests_to_Yandex_Wordstat": 525350
+    },
+    "Anadyr": {
+      "name": "Анадырь",
+      "width": 64.734925,
+      "longitude": 177.492872,
+      "population": 15690,
+      "region": "Чукотский автономный округ",
+      "requests_to_Yandex_Wordstat": 156900
+    },
+    "Petropavlovsk_Kamchatsky": {
+      "name": "Петропавловск-Камчатский",
+      "width": 53.044424,
+      "longitude": 158.650812,
+      "population": 187283,
+      "region": "Камчатский край",
+      "requests_to_Yandex_Wordstat": 1872830
+    },
+    "Blagoveshchensk": {
+      "name": "Благовещенск",
+      "width": 50.281495,
+      "longitude": 127.540474,
+      "population": 226042,
+      "region": "Амурская область",
+      "requests_to_Yandex_Wordstat": 2260420
+    },
+    "Yakutsk": {
+      "name": "Якутск",
+      "width": 62.028466,
+      "longitude": 129.732657,
+      "population": 339537,
+      "region": "Саха (Якутия)",
+      "requests_to_Yandex_Wordstat": 3395370
+    },
+    "Nalchik": {
+      "name": "Нальчик",
+      "width": 43.485691,
+      "longitude": 43.609074,
+      "population": 277104,
+      "region": "Кабардино-Балкария",
+      "requests_to_Yandex_Wordstat": 2771040
+    },
+    "Cherkessk": {
+      "name": "Черкесск",
+      "width": 44.224495,
+      "longitude": 42.058371,
+      "population": 131441,
+      "region": "Карачаево-Черкессия",
+      "requests_to_Yandex_Wordstat": 1314410
+    },
+    "Maykop": {
+      "name": "Майкоп",
+      "width": 44.605808,
+      "longitude": 40.105556,
+      "population": 162334,
+      "region": "Адыгея",
+      "requests_to_Yandex_Wordstat": 1623340
+    },
+    "Nizhny_Tagil": {
+      "name": "Нижний Тагил",
+      "width": 57.912136,
+      "longitude": 59.970669,
+      "population": 371033,
+      "region": "Свердловская область",
+      "requests_to_Yandex_Wordstat": 3710330
+    },
+    "Komsomolsk_on_Amure": {
+      "name": "Комсомольск-на-Амуре",
+      "width": 50.545556,
+      "longitude": 137.015833,
+      "population": 275570,
+      "region": "Хабаровский край",
+      "requests_to_Yandex_Wordstat": 2755700
+    },
+    "Orsk": {
+      "name": "Орск",
+      "width": 51.204948,
+      "longitude": 58.566856,
+      "population": 245406,
+      "region": "Оренбургская область",
+      "requests_to_Yandex_Wordstat": 2454060
+    },
+    "Novorossiysk": {
+      "name": "Новороссийск",
+      "width": 44.724487,
+      "longitude": 37.765366,
+      "population": 280761,
+      "region": "Краснодарский край",
+      "requests_to_Yandex_Wordstat": 2807610
+    },
+    "Balashikha": {
+      "name": "Балашиха",
+      "width": 55.809452,
+      "longitude": 37.958088,
+      "population": 475435,
+      "region": "Московская область",
+      "requests_to_Yandex_Wordstat": 4754350
+    },
+    "Podolsk": {
+      "name": "Подольск",
+      "width": 55.424967,
+      "longitude": 37.542473,
+      "population": 320438,
+      "region": "Московская область",
+      "requests_to_Yandex_Wordstat": 3204380
+    }
+  }
+}

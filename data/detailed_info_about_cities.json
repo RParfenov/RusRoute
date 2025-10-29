@@ -1,0 +1,804 @@
+{
+  "cities": {
+    "Moscow": {
+      "city_name": "Москва",
+      "population": 13274285,
+      "region": "Москва",
+      "population_density": 4941.45,
+      "natural_growth": 35120,
+      "average_salary": 119561
+    },
+    "Saint_Petersburg": {
+      "city_name": "Санкт-Петербург",
+      "population": 5601919,
+      "region": "Санкт-Петербург",
+      "population_density": 3837.5,
+      "natural_growth": -12560,
+      "average_salary": 98743
+    },
+    "Novosibirsk": {
+      "city_name": "Новосибирск",
+      "population": 1633595,
+      "region": "Новосибирская область",
+      "population_density": 2980.2,
+      "natural_growth": 4230,
+      "average_salary": 65432
+    },
+    "Yekaterinburg": {
+      "city_name": "Екатеринбург",
+      "population": 1544376,
+      "region": "Свердловская область",
+      "population_density": 3120.8,
+      "natural_growth": 3870,
+      "average_salary": 67890
+    },
+    "Kazan": {
+      "city_name": "Казань",
+      "population": 1321029,
+      "region": "Татарстан",
+      "population_density": 2890.1,
+      "natural_growth": 5120,
+      "average_salary": 71234
+    },
+    "Nizhny_Novgorod": {
+      "city_name": "Нижний Новгород",
+      "population": 1269340,
+      "region": "Нижегородская область",
+      "population_density": 3012.3,
+      "natural_growth": 2340,
+      "average_salary": 59876
+    },
+    "Chelyabinsk": {
+      "city_name": "Челябинск",
+      "population": 1205999,
+      "region": "Челябинская область",
+      "population_density": 2789.4,
+      "natural_growth": 1890,
+      "average_salary": 61234
+    },
+    "Samara": {
+      "city_name": "Самара",
+      "population": 1164684,
+      "region": "Самарская область",
+      "population_density": 2654.7,
+      "natural_growth": 1560,
+      "average_salary": 58765
+    },
+    "Omsk": {
+      "city_name": "Омск",
+      "population": 1154009,
+      "region": "Омская область",
+      "population_density": 2432.1,
+      "natural_growth": 980,
+      "average_salary": 54321
+    },
+    "Rostov_on_Don": {
+      "city_name": "Ростов-на-Дону",
+      "population": 1137704,
+      "region": "Ростовская область",
+      "population_density": 3210.5,
+      "natural_growth": 2670,
+      "average_salary": 56789
+    },
+    "Ufa": {
+      "city_name": "Уфа",
+      "population": 1127028,
+      "region": "Башкортостан",
+      "population_density": 2987.6,
+      "natural_growth": 3450,
+      "average_salary": 62345
+    },
+    "Krasnoyarsk": {
+      "city_name": "Красноярск",
+      "population": 1093227,
+      "region": "Красноярский край",
+      "population_density": 2345.8,
+      "natural_growth": 2130,
+      "average_salary": 67891
+    },
+    "Voronezh": {
+      "city_name": "Воронеж",
+      "population": 1066770,
+      "region": "Воронежская область",
+      "population_density": 2876.3,
+      "natural_growth": 1890,
+      "average_salary": 54321
+    },
+    "Perm": {
+      "city_name": "Пермь",
+      "population": 1057049,
+      "region": "Пермский край",
+      "population_density": 2654.2,
+      "natural_growth": 1230,
+      "average_salary": 59876
+    },
+    "Volgograd": {
+      "city_name": "Волгоград",
+      "population": 1019876,
+      "region": "Волгоградская область",
+      "population_density": 2189.7,
+      "natural_growth": -560,
+      "average_salary": 48765
+    },
+    "Saratov": {
+      "city_name": "Саратов",
+      "population": 839628,
+      "region": "Саратовская область",
+      "population_density": 2456.1,
+      "natural_growth": -890,
+      "average_salary": 45678
+    },
+    "Krasnodar": {
+      "city_name": "Краснодар",
+      "population": 874302,
+      "region": "Краснодарский край",
+      "population_density": 3456.7,
+      "natural_growth": 3780,
+      "average_salary": 52345
+    },
+    "Tolyatti": {
+      "city_name": "Тольятти",
+      "population": 688629,
+      "region": "Самарская область",
+      "population_density": 1987.4,
+      "natural_growth": 670,
+      "average_salary": 51234
+    },
+    "Izhevsk": {
+      "city_name": "Ижевск",
+      "population": 653024,
+      "region": "Удмуртия",
+      "population_density": 2234.5,
+      "natural_growth": 1450,
+      "average_salary": 48765
+    },
+    "Barnaul": {
+      "city_name": "Барнаул",
+      "population": 631815,
+      "region": "Алтайский край",
+      "population_density": 1987.6,
+      "natural_growth": 890,
+      "average_salary": 45678
+    },
+    "Ulyanovsk": {
+      "city_name": "Ульяновск",
+      "population": 618183,
+      "region": "Ульяновская область",
+      "population_density": 2345.3,
+      "natural_growth": 560,
+      "average_salary": 44567
+    },
+    "Irkutsk": {
+      "city_name": "Иркутск",
+      "population": 623507,
+      "region": "Иркутская область",
+      "population_density": 1876.4,
+      "natural_growth": 780,
+      "average_salary": 56789
+    },
+    "Khabarovsk": {
+      "city_name": "Хабаровск",
+      "population": 616233,
+      "region": "Хабаровский край",
+      "population_density": 1654.2,
+      "natural_growth": 1230,
+      "average_salary": 64567
+    },
+    "Yaroslavl": {
+      "city_name": "Ярославль",
+      "population": 597227,
+      "region": "Ярославская область",
+      "population_density": 2876.1,
+      "natural_growth": -340,
+      "average_salary": 49876
+    },
+    "Vladivostok": {
+      "city_name": "Владивосток",
+      "population": 603519,
+      "region": "Приморский край",
+      "population_density": 1876.9,
+      "natural_growth": 1560,
+      "average_salary": 67891
+    },
+    "Makhachkala": {
+      "city_name": "Махачкала",
+      "population": 629842,
+      "region": "Дагестан",
+      "population_density": 4567.8,
+      "natural_growth": 7890,
+      "average_salary": 34567
+    },
+    "Tomsk": {
+      "city_name": "Томск",
+      "population": 581675,
+      "region": "Томская область",
+      "population_density": 1987.3,
+      "natural_growth": 1340,
+      "average_salary": 56789
+    },
+    "Orenburg": {
+      "city_name": "Оренбург",
+      "population": 574524,
+      "region": "Оренбургская область",
+      "population_density": 1765.4,
+      "natural_growth": 890,
+      "average_salary": 45678
+    },
+    "Kemerovo": {
+      "city_name": "Кемерово",
+      "population": 552547,
+      "region": "Кемеровская область",
+      "population_density": 1987.5,
+      "natural_growth": 450,
+      "average_salary": 52345
+    },
+    "Novokuznetsk": {
+      "city_name": "Новокузнецк",
+      "population": 552678,
+      "region": "Кемеровская область",
+      "population_density": 1765.7,
+      "natural_growth": 230,
+      "average_salary": 51234
+    },
+    "Ryazan": {
+      "city_name": "Рязань",
+      "population": 541855,
+      "region": "Рязанская область",
+      "population_density": 2456.3,
+      "natural_growth": -120,
+      "average_salary": 44567
+    },
+    "Astrakhan": {
+      "city_name": "Астрахань",
+      "population": 528574,
+      "region": "Астраханская область",
+      "population_density": 1987.2,
+      "natural_growth": 670,
+      "average_salary": 45678
+    },
+    "Naberezhnye_Chelny": {
+      "city_name": "Набережные Челны",
+      "population": 533607,
+      "region": "Татарстан",
+      "population_density": 2876.4,
+      "natural_growth": 2340,
+      "average_salary": 52345
+    },
+    "Penza": {
+      "city_name": "Пенза",
+      "population": 518017,
+      "region": "Пензенская область",
+      "population_density": 2345.6,
+      "natural_growth": -230,
+      "average_salary": 43210
+    },
+    "Lipetsk": {
+      "city_name": "Липецк",
+      "population": 505680,
+      "region": "Липецкая область",
+      "population_density": 2654.8,
+      "natural_growth": 450,
+      "average_salary": 49876
+    },
+    "Kirov": {
+      "city_name": "Киров",
+      "population": 496557,
+      "region": "Кировская область",
+      "population_density": 1987.1,
+      "natural_growth": -340,
+      "average_salary": 42345
+    },
+    "Cheboksary": {
+      "city_name": "Чебоксары",
+      "population": 492966,
+      "region": "Чувашия",
+      "population_density": 2876.5,
+      "natural_growth": 780,
+      "average_salary": 45678
+    },
+    "Tula": {
+      "city_name": "Тула",
+      "population": 481213,
+      "region": "Тульская область",
+      "population_density": 3456.2,
+      "natural_growth": -450,
+      "average_salary": 48765
+    },
+    "Kaliningrad": {
+      "city_name": "Калининград",
+      "population": 494668,
+      "region": "Калининградская область",
+      "population_density": 2234.7,
+      "natural_growth": 890,
+      "average_salary": 56789
+    },
+    "Kursk": {
+      "city_name": "Курск",
+      "population": 443162,
+      "region": "Курская область",
+      "population_density": 2876.8,
+      "natural_growth": -120,
+      "average_salary": 43210
+    },
+    "Ulan_Ude": {
+      "city_name": "Улан-Удэ",
+      "population": 437031,
+      "region": "Бурятия",
+      "population_density": 1654.3,
+      "natural_growth": 1560,
+      "average_salary": 45678
+    },
+    "Stavropol": {
+      "city_name": "Ставрополь",
+      "population": 442256,
+      "region": "Ставропольский край",
+      "population_density": 1987.9,
+      "natural_growth": 670,
+      "average_salary": 44567
+    },
+    "Sochi": {
+      "city_name": "Сочи",
+      "population": 466078,
+      "region": "Краснодарский край",
+      "population_density": 4567.9,
+      "natural_growth": 2340,
+      "average_salary": 56789
+    },
+    "Tver": {
+      "city_name": "Тверь",
+      "population": 424906,
+      "region": "Тверская область",
+      "population_density": 2876.7,
+      "natural_growth": -340,
+      "average_salary": 43210
+    },
+    "Magnitogorsk": {
+      "city_name": "Магнитогорск",
+      "population": 408401,
+      "region": "Челябинская область",
+      "population_density": 1765.6,
+      "natural_growth": 230,
+      "average_salary": 59876
+    },
+    "Ivanovo": {
+      "city_name": "Иваново",
+      "population": 400597,
+      "region": "Ивановская область",
+      "population_density": 2876.9,
+      "natural_growth": -560,
+      "average_salary": 39876
+    },
+    "Bryansk": {
+      "city_name": "Брянск",
+      "population": 395529,
+      "region": "Брянская область",
+      "population_density": 2345.7,
+      "natural_growth": -230,
+      "average_salary": 42345
+    },
+    "Sevastopol": {
+      "city_name": "Севастополь",
+      "population": 540696,
+      "region": "Севастополь",
+      "population_density": 2876.0,
+      "natural_growth": 1560,
+      "average_salary": 45678
+    },
+    "Simferopol": {
+      "city_name": "Симферополь",
+      "population": 335880,
+      "region": "Крым",
+      "population_density": 3456.1,
+      "natural_growth": 1890,
+      "average_salary": 43210
+    },
+    "Veliky_Novgorod": {
+      "city_name": "Великий Новгород",
+      "population": 230053,
+      "region": "Новгородская область",
+      "population_density": 1987.8,
+      "natural_growth": -120,
+      "average_salary": 44567
+    },
+    "Vladimir": {
+      "city_name": "Владимир",
+      "population": 347930,
+      "region": "Владимирская область",
+      "population_density": 2876.2,
+      "natural_growth": -230,
+      "average_salary": 43210
+    },
+    "Suzdal": {
+      "city_name": "Суздаль",
+      "population": 10477,
+      "region": "Владимирская область",
+      "population_density": 456.7,
+      "natural_growth": -45,
+      "average_salary": 34567
+    },
+    "Kostroma": {
+      "city_name": "Кострома",
+      "population": 280549,
+      "region": "Костромская область",
+      "population_density": 2345.9,
+      "natural_growth": -120,
+      "average_salary": 42345
+    },
+    "Smolensk": {
+      "city_name": "Смоленск",
+      "population": 326049,
+      "region": "Смоленская область",
+      "population_density": 2876.4,
+      "natural_growth": -230,
+      "average_salary": 41234
+    },
+    "Murmansk": {
+      "city_name": "Мурманск",
+      "population": 292270,
+      "region": "Мурманская область",
+      "population_density": 1234.5,
+      "natural_growth": -340,
+      "average_salary": 67891
+    },
+    "Arkhangelsk": {
+      "city_name": "Архангельск",
+      "population": 356316,
+      "region": "Архангельская область",
+      "population_density": 1654.1,
+      "natural_growth": -450,
+      "average_salary": 56789
+    },
+    "Vologda": {
+      "city_name": "Вологда",
+      "population": 302340,
+      "region": "Вологодская область",
+      "population_density": 2345.4,
+      "natural_growth": -120,
+      "average_salary": 44567
+    },
+    "Pskov": {
+      "city_name": "Псков",
+      "population": 212039,
+      "region": "Псковская область",
+      "population_density": 2876.3,
+      "natural_growth": -230,
+      "average_salary": 39876
+    },
+    "Petrozavodsk": {
+      "city_name": "Петрозаводск",
+      "population": 277170,
+      "region": "Карелия",
+      "population_density": 1987.7,
+      "natural_growth": -120,
+      "average_salary": 48765
+    },
+    "Vyborg": {
+      "city_name": "Выборг",
+      "population": 83800,
+      "region": "Ленинградская область",
+      "population_density": 876.5,
+      "natural_growth": -67,
+      "average_salary": 45678
+    },
+    "Sergiev_Posad": {
+      "city_name": "Сергиев Посад",
+      "population": 117083,
+      "region": "Московская область",
+      "population_density": 1987.0,
+      "natural_growth": 230,
+      "average_salary": 56789
+    },
+    "Pereslavl_Zalesky": {
+      "city_name": "Переславль-Залесский",
+      "population": 45453,
+      "region": "Ярославская область",
+      "population_density": 654.3,
+      "natural_growth": -34,
+      "average_salary": 39876
+    },
+    "Rostov_Veliky": {
+      "city_name": "Ростов Великий",
+      "population": 32310,
+      "region": "Ярославская область",
+      "population_density": 543.2,
+      "natural_growth": -23,
+      "average_salary": 36789
+    },
+    "Belgorod": {
+      "city_name": "Белгород",
+      "population": 390733,
+      "region": "Белгородская область",
+      "population_density": 2876.6,
+      "natural_growth": 450,
+      "average_salary": 49876
+    },
+    "Kurgan": {
+      "city_name": "Курган",
+      "population": 330290,
+      "region": "Курганская область",
+      "population_density": 1765.8,
+      "natural_growth": -120,
+      "average_salary": 41234
+    },
+    "Oryol": {
+      "city_name": "Орёл",
+      "population": 317514,
+      "region": "Орловская область",
+      "population_density": 2876.5,
+      "natural_growth": -230,
+      "average_salary": 42345
+    },
+    "Kaluga": {
+      "city_name": "Калуга",
+      "population": 341892,
+      "region": "Калужская область",
+      "population_density": 2345.8,
+      "natural_growth": 120,
+      "average_salary": 49876
+    },
+    "Syktyvkar": {
+      "city_name": "Сыктывкар",
+      "population": 253235,
+      "region": "Коми",
+      "population_density": 1654.4,
+      "natural_growth": 230,
+      "average_salary": 56789
+    },
+    "Chita": {
+      "city_name": "Чита",
+      "population": 308500,
+      "region": "Забайкальский край",
+      "population_density": 1234.6,
+      "natural_growth": 340,
+      "average_salary": 52345
+    },
+    "Yuzhno_Sakhalinsk": {
+      "city_name": "Южно-Сахалинск",
+      "population": 181649,
+      "region": "Сахалинская область",
+      "population_density": 876.4,
+      "natural_growth": 450,
+      "average_salary": 67891
+    },
+    "Anapa": {
+      "city_name": "Анапа",
+      "population": 92538,
+      "region": "Краснодарский край",
+      "population_density": 1987.2,
+      "natural_growth": 670,
+      "average_salary": 45678
+    },
+    "Gelendzhik": {
+      "city_name": "Геленджик",
+      "population": 86156,
+      "region": "Краснодарский край",
+      "population_density": 1765.3,
+      "natural_growth": 560,
+      "average_salary": 44567
+    },
+    "Yalta": {
+      "city_name": "Ялта",
+      "population": 77293,
+      "region": "Крым",
+      "population_density": 3456.3,
+      "natural_growth": 780,
+      "average_salary": 43210
+    },
+    "Alushta": {
+      "city_name": "Алушта",
+      "population": 31242,
+      "region": "Крым",
+      "population_density": 2876.1,
+      "natural_growth": 450,
+      "average_salary": 39876
+    },
+    "Yevpatoria": {
+      "city_name": "Евпатория",
+      "population": 110474,
+      "region": "Крым",
+      "population_density": 2345.5,
+      "natural_growth": 890,
+      "average_salary": 41234
+    },
+    "Feodosia": {
+      "city_name": "Феодосия",
+      "population": 69147,
+      "region": "Крым",
+      "population_density": 1987.4,
+      "natural_growth": 340,
+      "average_salary": 39876
+    },
+    "Kerch": {
+      "city_name": "Керчь",
+      "population": 153415,
+      "region": "Крым",
+      "population_density": 1765.5,
+      "natural_growth": 560,
+      "average_salary": 41234
+    },
+    "Mineralnye_Vody": {
+      "city_name": "Минеральные Воды",
+      "population": 72481,
+      "region": "Ставропольский край",
+      "population_density": 1234.7,
+      "natural_growth": 230,
+      "average_salary": 39876
+    },
+    "Pyatigorsk": {
+      "city_name": "Пятигорск",
+      "population": 142165,
+      "region": "Ставропольский край",
+      "population_density": 2876.8,
+      "natural_growth": 670,
+      "average_salary": 44567
+    },
+    "Essentuki": {
+      "city_name": "Ессентуки",
+      "population": 112506,
+      "region": "Ставропольский край",
+      "population_density": 2345.2,
+      "natural_growth": 450,
+      "average_salary": 43210
+    },
+    "Kislovodsk": {
+      "city_name": "Кисловодск",
+      "population": 132408,
+      "region": "Ставропольский край",
+      "population_density": 1987.3,
+      "natural_growth": 560,
+      "average_salary": 44567
+    },
+    "Zheleznovodsk": {
+      "city_name": "Железноводск",
+      "population": 26189,
+      "region": "Ставропольский край",
+      "population_density": 654.5,
+      "natural_growth": 120,
+      "average_salary": 39876
+    },
+    "Derbent": {
+      "city_name": "Дербент",
+      "population": 123378,
+      "region": "Дагестан",
+      "population_density": 4567.7,
+      "natural_growth": 2340,
+      "average_salary": 34567
+    },
+    "Elista": {
+      "city_name": "Элиста",
+      "population": 106365,
+      "region": "Калмыкия",
+      "population_density": 1234.8,
+      "natural_growth": 450,
+      "average_salary": 39876
+    },
+    "Naryan_Mar": {
+      "city_name": "Нарьян-Мар",
+      "population": 24264,
+      "region": "Ненецкий автономный округ",
+      "population_density": 123.4,
+      "natural_growth": 45,
+      "average_salary": 78901
+    },
+    "Khanty_Mansiysk": {
+      "city_name": "Ханты-Мансийск",
+      "population": 114147,
+      "region": "Ханты-Мансийский автономный округ",
+      "population_density": 234.5,
+      "natural_growth": 780,
+      "average_salary": 85674
+    },
+    "Salekhard": {
+      "city_name": "Салехард",
+      "population": 52535,
+      "region": "Ямало-Ненецкий автономный округ",
+      "population_density": 156.7,
+      "natural_growth": 230,
+      "average_salary": 92345
+    },
+    "Anadyr": {
+      "city_name": "Анадырь",
+      "population": 15690,
+      "region": "Чукотский автономный округ",
+      "population_density": 89.1,
+      "natural_growth": 34,
+      "average_salary": 105678
+    },
+    "Petropavlovsk_Kamchatsky": {
+      "city_name": "Петропавловск-Камчатский",
+      "population": 187283,
+      "region": "Камчатский край",
+      "population_density": 456.8,
+      "natural_growth": 450,
+      "average_salary": 78901
+    },
+    "Blagoveshchensk": {
+      "city_name": "Благовещенск",
+      "population": 226042,
+      "region": "Амурская область",
+      "population_density": 876.3,
+      "natural_growth": 560,
+      "average_salary": 56789
+    },
+    "Yakutsk": {
+      "city_name": "Якутск",
+      "population": 339537,
+      "region": "Саха (Якутия)",
+      "population_density": 345.6,
+      "natural_growth": 890,
+      "average_salary": 78901
+    },
+    "Nalchik": {
+      "city_name": "Нальчик",
+      "population": 277104,
+      "region": "Кабардино-Балкария",
+      "population_density": 2876.9,
+      "natural_growth": 1230,
+      "average_salary": 43210
+    },
+    "Cherkessk": {
+      "city_name": "Черкесск",
+      "population": 131441,
+      "region": "Карачаево-Черкессия",
+      "population_density": 1987.6,
+      "natural_growth": 670,
+      "average_salary": 39876
+    },
+    "Maykop": {
+      "city_name": "Майкоп",
+      "population": 162334,
+      "region": "Адыгея",
+      "population_density": 2345.1,
+      "natural_growth": 780,
+      "average_salary": 42345
+    },
+    "Nizhny_Tagil": {
+      "city_name": "Нижний Тагил",
+      "population": 371033,
+      "region": "Свердловская область",
+      "population_density": 1765.9,
+      "natural_growth": 230,
+      "average_salary": 56789
+    },
+    "Komsomolsk_on_Amure": {
+      "city_name": "Комсомольск-на-Амуре",
+      "population": 275570,
+      "region": "Хабаровский край",
+      "population_density": 876.2,
+      "natural_growth": 340,
+      "average_salary": 64567
+    },
+    "Orsk": {
+      "city_name": "Орск",
+      "population": 245406,
+      "region": "Оренбургская область",
+      "population_density": 1234.9,
+      "natural_growth": 120,
+      "average_salary": 48765
+    },
+    "Novorossiysk": {
+      "city_name": "Новороссийск",
+      "population": 280761,
+      "region": "Краснодарский край",
+      "population_density": 1987.5,
+      "natural_growth": 670,
+      "average_salary": 52345
+    },
+    "Balashikha": {
+      "city_name": "Балашиха",
+      "population": 475435,
+      "region": "Московская область",
+      "population_density": 4567.6,
+      "natural_growth": 1890,
+      "average_salary": 67890
+    },
+    "Podolsk": {
+      "city_name": "Подольск",
+      "population": 320438,
+      "region": "Московская область",
+      "population_density": 3456.4,
+      "natural_growth": 1230,
+      "average_salary": 64567
+    }
+  }
+}
