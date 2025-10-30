@@ -1,5 +1,6 @@
 import json
 import os
+import translations
 
 class HandlerFilesRoads:
 
@@ -19,7 +20,8 @@ class HandlerFilesRoads:
                 list: Список словарей с информацией о маршруте.
                       Если маршрут не найден, возвращает пустой список.
         """
-        from_city_key = to.replace(" ", "_").replace("-", "_")
+        trans = translations.CITY_TRANSLATIONS
+        from_city_key = trans[f"{to}"]["en"]
         routes_key = f"routes_from_{from_city_key}"
         if routes_key not in self.data.get("routes", {}):
             raise KeyError("Такого маршрута нету.")
@@ -36,6 +38,6 @@ free = HandlerFilesRoads("free-trails_city.json")
 f = free.get_info_route("Москва", "Псков")
 print(f)
 
-toll = HandlerFilesRoads("toll-trails_city.json")
+toll = HandlerFilesRoads("toll_trails_city.json")
 t = toll.get_info_route("Москва", "Псков")
 print(t)
