@@ -2,7 +2,7 @@ import json
 import os
 import translations
 
-class HandlerFilesRoads:
+class HandlerFiles:
 
     def __init__(self, name_file):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -32,12 +32,3 @@ class HandlerFilesRoads:
                 route_info = key
 
         return route_info
-
-
-free = HandlerFilesRoads("free-trails_city.json")
-f = free.get_info_route("Москва", "Псков")
-print(f)
-
-toll = HandlerFilesRoads("toll_trails_city.json")
-t = toll.get_info_route("Москва", "Псков")
-print(t)

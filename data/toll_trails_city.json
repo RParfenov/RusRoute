@@ -7146,7 +7146,7 @@
                 "name_trails": "Р-254/М-5"
             }
         ],
-        "routes_from_Rostov_na_Donu": [
+        "routes_from_Rostov_on_Don": [
             {
                 "route": "Ростов-на-Дону-Москва",
                 "time": 13,
@@ -31760,7 +31760,7 @@
                 "name_trails": "М-9"
             }
         ],
-        "routes_from_UlanUde": [
+        "routes_from_Ulan_Ude": [
             {
                 "route": "Улан-Удэ-Москва",
                 "time": 6,
@@ -43670,7 +43670,7 @@
                 "name_trails": "М-11"
             }
         ],
-        "routes_from_VelikyNovgorod": [
+        "routes_from_Veliky_Novgorod": [
             {
                 "route": "Великий Новгород-Москва",
                 "time": 26,
@@ -47640,7 +47640,7 @@
                 "name_trails": "М-10"
             }
         ],
-        "routes_from_Sergiyev_Posad": [
+        "routes_from_Sergiev_Posad": [
             {
                 "route": "Сергиев Посад-Москва",
                 "time": 1,
@@ -48434,7 +48434,7 @@
                 "name_trails": "М-8/М-7/М-4"
             }
         ],
-        "routes_from_Pereslavl-Zalessky": [
+        "routes_from_Pereslavl_Zalesky": [
             {
                 "route": "Переславль-Залесский-Москва",
                 "time": 1,
@@ -72254,7 +72254,7 @@
                 "name_trails": "М-4/М-7/М-2"
             }
         ],
-        "routes_from_Nizhniy_Tagil": [
+        "routes_from_Nizhny_Tagil": [
             {
                 "route": "Нижний Тагил-Москва",
                 "time": 25,
