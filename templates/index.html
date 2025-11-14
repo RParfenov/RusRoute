@@ -112,6 +112,27 @@
             text-align: center;
         }
 
+        /* Стили для кнопки "Показать маршрут" */
+        .show-route-btn {
+            width: 180px;
+            height: 36px;
+            background-color: #10ff04;
+            border: 3px solid black;
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 14pt;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px; /* Опционально: скругленные углы */
+            transition: background-color 0.2s ease;
+        }
+
+        .show-route-btn:hover {
+            background-color: green; /* Темнее при наведении */
+        }
+
         /* Информационный блок */
         .route-info {
             width: 100%;
@@ -299,6 +320,10 @@
                     <input type="text" id="extra-city1" name="city_from" value="Москва" class="city-input" required>
                 </div>
             </div>
+
+            <!-- Кнопка "Показать маршрут" -->
+            <a href="/route" class="show-route-btn">Показать маршрут</a>
+
             <div class="city-card">
                 <span class="city-card-label">Куда:</span>
                 <div class="autocomplete">
