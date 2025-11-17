@@ -12,6 +12,10 @@ app = Flask(__name__,
 def index():
     return render_template('index.html')
 
+@app.route('/plan')
+def plan():
+    return render_template('plan.html')
+
 @app.route('/route')
 def show_route():
     city1 = request.args.get('city1', 'Москва')
