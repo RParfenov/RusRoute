@@ -18,8 +18,8 @@ def plan():
 
 @app.route('/route')
 def show_route():
-    city1 = request.args.get('city1', 'Москва')
-    city2 = request.args.get('city2', 'Казань')
+    city1 = request.args.get('city_from', 'Москва')
+    city2 = request.args.get('city_to', 'Казань')
 
     img1_en = trans[city1]['en']
     img2_en = trans[city2]['en']

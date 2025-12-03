@@ -21,78 +21,79 @@ const cities = [
     "Комсомольск-на-Амуре", "Орск", "Новороссийск", "Балашиха", "Подольск"
 ];
 
-function autocomplete(inp, arr) {
-    let currentFocus;
+function autocomplete(inputElement, cityList) {
+    let currentFocusIndex;
 
-    inp.addEventListener("input", function(e) {
-        let val = this.value;
+    inputElement.addEventListener("input", function(event) {
+        let currentInputValue = this.value;
         closeAllLists();
-        if (!val) return false;
-        currentFocus = -1;
+        if (!currentInputValue) return false;
+        currentFocusIndex = -1;
 
-        const a = document.createElement("DIV");
-        a.style.width = "250px";
-        a.style.whiteSpace = "nowrap";
-        a.style.overflowX = "hidden";
-        a.setAttribute("id", this.id + "-autocomplete-list");
-        a.setAttribute("class", "autocomplete-items");
-        this.parentNode.appendChild(a);
+        const suggestionsContainer = document.createElement("DIV");
+        suggestionsContainer.style.width = "250px";
+        suggestionsContainer.style.whiteSpace = "nowrap";
+        suggestionsContainer.style.overflowX = "hidden";
+        suggestionsContainer.setAttribute("id", this.id + "-autocomplete-list");
+        suggestionsContainer.setAttribute("class", "autocomplete-items");
+        this.parentNode.appendChild(suggestionsContainer);
 
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i].substr(0, val.length).toUpperCase() === val.toUpperCase()) {
-                const b = document.createElement("DIV");
-                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                b.innerHTML += arr[i].substr(val.length);
-                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                b.addEventListener("click", function(e) {
-                    inp.value = this.getElementsByTagName("input")[0].value;
+        for (let i = 0; i < cityList.length; i++) {
+            if (cityList[i].substr(0, currentInputValue.length).toUpperCase() === currentInputValue.toUpperCase()) {
+                const suggestionItem = document.createElement("DIV");
+                suggestionItem.innerHTML = "<strong>" + cityList[i].substr(0, currentInputValue.length) + "</strong>";
+                suggestionItem.innerHTML += cityList[i].substr(currentInputValue.length);
+                suggestionItem.innerHTML += "<input type='hidden' value='" + cityList[i] + "'>";
+                suggestionItem.addEventListener("click", function(event) {
+                    inputElement.value = this.getElementsByTagName("input")[0].value;
                     closeAllLists();
+                    inputElement.dispatchEvent(new Event('input', { bubbles: true}));
                 });
-                a.appendChild(b);
+                suggestionsContainer.appendChild(suggestionItem);
             }
         }
     });
 
-    inp.addEventListener("keydown", function(e) {
-        let x = document.getElementById(this.id + "-autocomplete-list");
-        if (x) x = x.getElementsByTagName("div");
-        if (e.keyCode === 40) { // Arrow Down
-            currentFocus++;
-            addActive(x);
-        } else if (e.keyCode === 38) { // Arrow Up
-            currentFocus--;
-            addActive(x);
-        } else if (e.keyCode === 13) { // Enter
-            e.preventDefault();
-            if (currentFocus > -1 && x) x[currentFocus].click();
+    inputElement.addEventListener("keydown", function(event) {
+        let suggestionsList = document.getElementById(this.id + "-autocomplete-list");
+        if (suggestionsList) suggestionsList = suggestionsList.getElementsByTagName("div");
+        if (event.keyCode === 40) { // Arrow Down
+            currentFocusIndex++;
+            addActive(suggestionsList);
+        } else if (event.keyCode === 38) { // Arrow Up
+            currentFocusIndex--;
+            addActive(suggestionsList);
+        } else if (event.keyCode === 13) { // Enter
+            event.preventDefault();
+            if (currentFocusIndex > -1 && suggestionsList) suggestionsList[currentFocusIndex].click();
         }
     });
 
-    function addActive(x) {
-        if (!x) return false;
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        x[currentFocus].classList.add("autocomplete-active");
+    function addActive(items) {
+        if (!items) return false;
+        removeActive(items);
+        if (currentFocusIndex >= items.length) currentFocusIndex = 0;
+        if (currentFocusIndex < 0) currentFocusIndex = (items.length - 1);
+        items[currentFocusIndex].classList.add("autocomplete-active");
     }
 
-    function removeActive(x) {
-        for (let i = 0; i < x.length; i++) {
-            x[i].classList.remove("autocomplete-active");
+    function removeActive(items) {
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove("autocomplete-active");
         }
     }
 
-    function closeAllLists(elmnt) {
+    function closeAllLists(clickedElement) {
         const x = document.getElementsByClassName("autocomplete-items");
         for (let i = 0; i < x.length; i++) {
-            if (elmnt !== x[i] && elmnt !== inp) {
+            if (clickedElement !== x[i] && clickedElement !== inputElement) {
                 x[i].parentNode.removeChild(x[i]);
             }
         }
     }
 
-    document.addEventListener("click", function (e) {
-        closeAllLists(e.target);
+    document.addEventListener("click", function (event) {
+        closeAllLists(event.target);
     });
 }
 
