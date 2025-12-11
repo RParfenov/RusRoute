@@ -46,20 +46,20 @@
             <div class="route-details">
                 <h3>Детали маршрута</h3>
                 <div class="detail-item">
-                    <span class="detail-label">Расстояние:</span>
-                    <span class="detail-value">1,200 км</span>
+                    <span class="detail-label">Время прибытия:</span>
+                    <span class="detail-value">{{ finish_date }}</span>
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Время в пути:</span>
-                    <span class="detail-value">15 часов</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">Стоимость:</span>
-                    <span class="detail-value">5,000</span>
+                    <span class="detail-value">{{ route_data['time'] }} часов</span>
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Рекомендуемый транспорт:</span>
-                    <span class="detail-value">Поезд</span>
+                    <span class="detail-value">{{ route_data['transport'] }}</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Стоимость:</span>
+                    <span class="detail-value">{{ route_data['cost'] }} ₽</span>
                 </div>
             </div>
              <!-- <div class="btn-container">

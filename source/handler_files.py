@@ -3,14 +3,13 @@ import os
 import translations
 
 class HandlerFiles:
-
     def __init__(self, name_file):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
         self.json_path = os.path.join(self.current_dir, '..', 'data', name_file)
         with open(self.json_path, 'r', encoding='utf-8') as file:
             self.data = json.load(file)
 
-    def get_info_route(self, to, fr):
+    def get_info_route(self, to, fr) -> dict:
         """
             Находит информацию о маршруте из города A в город B.
             Args:

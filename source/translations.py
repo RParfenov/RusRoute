@@ -400,3 +400,21 @@ CITY_TRANSLATIONS = {
         "en": "Podolsk"
     }
 }
+
+TRANSPORT_TYPES_TRANSLATIONS = {
+    "plane": {
+        "ru": "Самолет",
+        "en": "Plane"
+    },
+    "train": {
+        "ru": "Поезд",
+        "en": "Train"
+    },
+    "free_trails": {
+        "ru": "Автомобили (бесплатные трассы)",
+        "en": "free_trails"},
+    "toll_trails": {
+        "ru": "Автомобили (платные трассы)",
+        "en": "toll_trails"
+    }
+}

@@ -4,7 +4,6 @@ import translations
 
 
 class HandlerInfo:
-
     def __init__(self, file_name, flag_detail=False):
         self.name_key = "name"
         if flag_detail:
@@ -22,10 +21,8 @@ class HandlerInfo:
     def get_info_city(self, name):
         """
         Находит информацию о городе по его названию.
-
         Args:
             :param name: Название города на русском языке.
-
         Returns:
             dict: Словарь с информацией о городе.
                   Если город не найден, возвращает пустой словарь {}.

@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     map.addLayer(vectorLayer);
 
-    // Функция для получения координат города через ваш API
+    // Функция для получения координат города через API
     async function getCityCoordinates(cityName) {
         if (!cityName) return null;
 

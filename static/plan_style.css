@@ -99,6 +99,46 @@ body {
     border: 2px solid var(--primary)
 }
 
+.date-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: var(--primary);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
+
+.date-card:hover {
+    transform: translateY(-2px);
+}
+
+.date-card-label {
+    font-weight: bold;
+    color: var(--secondary);
+    margin-right: 0.5rem;
+}
+
+.date-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: center;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.date-input:focus {
+    outline: none;
+    border: 2px solid var(--primary)
+}
+
 .btn-container {
     display: flex;
     gap: 10px;
