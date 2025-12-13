@@ -10,4 +10,4 @@ __pycache__/
 .idea/
 
 # Файл переменных окружения
-.env
+source/.env
