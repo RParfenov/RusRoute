@@ -412,9 +412,9 @@ TRANSPORT_TYPES_TRANSLATIONS = {
     },
     "free_trails": {
         "ru": "Автомобили (бесплатные трассы)",
-        "en": "free_trails"},
+        "en": "Free trails"},
     "toll_trails": {
         "ru": "Автомобили (платные трассы)",
-        "en": "toll_trails"
+        "en": "Toll trails"
     }
 }

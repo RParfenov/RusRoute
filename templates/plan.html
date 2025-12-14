@@ -19,7 +19,10 @@
                     <img src="{{ url_for('static', filename='RusRoute.png') }}" alt="Логотип RusRoute">
                     RusRoute
                 </a>
-                <button class="btn btn-outline-light" onclick="window.location.href='/'">Вернуться на главную</button>
+                <div>
+                    <button class="btn btn-outline-light" onclick="window.location.href='/'">Вернуться на главную</button>
+                    <button class="btn btn-outline-light" onclick="window.location.href='/logout'">Выйти из системы</button>
+                </div>
             </div>
         </header>
 
@@ -79,15 +82,6 @@
                     </div>
                     <div class="transport-btn" data-type="money">
                         <img src="{{ url_for('static', filename='icons/money.png') }}" alt="Цена">
-                    </div>
-                </div>
-                
-                <!-- Нижняя панель с информацией -->
-                <div class="info-footer">
-                    <div class="info-label">Информация:</div>
-                    <div class="d-flex align-items-center">
-                        <span class="info-label me-2">Подробнее:</span>
-                        <button type="button" class="btn-more" aria-label="Показать подробности">...</button>
                     </div>
                 </div>
             </div>

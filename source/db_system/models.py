@@ -1,29 +1,48 @@
-import sqlalchemy as sa
-import sqlalchemy.orm as orm
+from sqlalchemy import Column, Integer, String, ForeignKey, Date, DateTime, Float, func, UniqueConstraint
+from sqlalchemy.orm import declarative_base, relationship
+from flask_login import UserMixin
+from werkzeug.security import generate_password_hash, check_password_hash
 
-SqlAlchemyBase = orm.declarative_base()
+SqlAlchemyBase = declarative_base()
 
-class User(SqlAlchemyBase):
+class User(UserMixin, SqlAlchemyBase):
     __tablename__ = 'users'
 
-    id = sa.Column(sa.Integer, primary_key=True)
-    username = sa.Column(sa.String(80), unique=True, nullable=False)
-    email = sa.Column(sa.String(120), unique=True, nullable=False)
-    cached_routes = orm.relationship('Route', back_populates='user', cascade='all, delete-orphan')
+    id = Column(Integer, primary_key=True)
+    username = Column(String(80), unique=True, nullable=False)
+    email = Column(String(120), unique=True, nullable=False)
+    password_hash = Column(String(128), nullable=False)
 
-class RouteCache(SqlAlchemyBase):
-    __tablename__ = 'route_cache'
-    id = sa.Column(sa.Integer, primary_key=True)
-    user_id = sa.Column(sa.Integer, sa.ForeignKey('users.id'), nullable=False, index=True)
+    viewed_routes = relationship('UserViewedRoute', back_populates='user', cascade='all, delete-orphan')
 
-    city_from = sa.Column(sa.String(120), nullable=False, index=True)
-    city_to = sa.Column(sa.String(120), nullable=False, index=True)
-    date_start = sa.Column(sa.Date, nullable=False, index=True)
+    def set_password(self, password):
+        self.password_hash = generate_password_hash(password)
 
-    transport = sa.Column(sa.String(120), nullable=False)
-    cost = sa.Column(sa.Integer, nullable=False)
-    time_hours = sa.Column(sa.Float, nullable=False)
-    finish_date = sa.Column(sa.Date, nullable=False)
-    created_at = sa.Column(sa.DateTime, default=sa.func.now())
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
 
-    user = sa.orm.relationship('User', back_populates='cached_routes')
+class Route(SqlAlchemyBase):
+    __tablename__ = 'routes'
+
+    id = Column(Integer, primary_key=True)
+    city_from = Column(String(120), nullable=False, index=True)
+    city_to = Column(String(120), nullable=False, index=True)
+    date_start = Column(String(10), nullable=False, index=True)
+    cost_image_path = Column(String(120), nullable=False)
+    time_image_path = Column(String(120), nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint('city_from', 'city_to'),
+    )
+
+    viewers = relationship('UserViewedRoute', back_populates='route', cascade='all, delete-orphan')
+
+class UserViewedRoute(SqlAlchemyBase):
+    __tablename__ = 'user_viewed_routes'
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False, index=True)
+    route_id = Column(Integer, ForeignKey('routes.id', ondelete='CASCADE'), nullable=False, index=True)
+    viewed_at = Column(DateTime, default=func.now())
+
+    user = relationship('User', back_populates='viewed_routes')
+    route = relationship('Route', back_populates='viewers')

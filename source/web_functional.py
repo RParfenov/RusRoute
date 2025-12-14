@@ -2,6 +2,8 @@ from source.handler_files import HandlerFiles
 from source.handler_info_city import HandlerInfo
 from source.handler_weather import HandlerWeather
 from datetime import datetime, timedelta
+from db_system.models import Route, UserViewedRoute
+from flask import g
 
 class WebFunc:
     def __init__(self):
@@ -65,6 +67,63 @@ class WebFunc:
         start_dt = datetime.fromisoformat(start_date) # ISO формат даты как раз YYYY-MM-DD
         finish_dt = start_dt + timedelta(hours=time_delta)
         return finish_dt.date().isoformat()
+
+    @staticmethod
+    def save_route_for_user(user_is_authenticated, user_id, city_from, city_to, date_start,
+                            cost_image_path, time_image_path):
+        """
+        Функция, которая сохраняет данные о маршруте в бд.
+        :param user_is_authenticated: Флаг, что пользователь зарегистрирован в бд.
+        :param user_id: Айди пользователя.
+        :param city_from: Город начала маршрута.
+        :param city_to: Город конца маршрута.
+        :param date_start: Дата отправки.
+        :param cost_image_path: Путь к файлу столбчатой диаграммы
+        :param time_image_path: Путь к файлу графика
+        """
+        if not user_is_authenticated:
+            raise PermissionError('Пользователь не авторизован')
+
+        route = g.db.query(Route).filter_by(city_from=city_from, city_to=city_to, date_start=date_start).first()
+        if not route:
+            route = Route(city_from=city_from, city_to=city_to, date_start=date_start,
+                          cost_image_path=cost_image_path, time_image_path=time_image_path)
+            g.db.add(route)
+            g.db.commit()
+
+        existing_view = g.db.query(UserViewedRoute).filter_by(
+            user_id=user_id,
+            route_id=route.id
+        ).first()
+
+        if not existing_view:
+            viewed = UserViewedRoute(user_id=user_id, route_id=route.id)
+            g.db.add(viewed)
+            g.db.commit()
+
+    @staticmethod
+    def get_route_image_from_db(user_is_authenticated, user_id, city_from, city_to, date_start):
+        """
+        Функция, которая делает запрос в бд и возвращает путь к сохраненным графикам по маршруту
+        :param user_is_authenticated: Флаг, что пользователь зарегистрирован в бд.
+        :param user_id: Айди пользователя.
+        :param city_from: Город начала маршрута.
+        :param city_to: Город конца маршрута.
+        :param date_start: Дата отправки.
+        :return: Возвращает dict: {'cost_image_path': 'path', 'time_image_path': 'path'}.
+        """
+        if not user_is_authenticated:
+            raise PermissionError('Пользователь не авторизован')
+
+        route = g.db.query(Route).filter_by(city_from=city_from,
+                                                      city_to=city_to, date_start=date_start).first()
+        if not route:
+            return None
+
+        return {
+            'cost_image_path': route.cost_image_path,
+            'time_image_path': route.time_image_path,
+        }
 
     def _correct_time(self, to, fr, date_start, transport):
         """
