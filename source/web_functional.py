@@ -125,6 +125,29 @@ class WebFunc:
             'time_image_path': route.time_image_path,
         }
 
+    @staticmethod
+    def get_user_route_history(user_id):
+        """
+        Функция получения истории запросов пользователя
+        :param user_id: айди пользователя
+        :return: список словарей запросов пользователя
+        """
+        query = g.db.query(Route.city_from, Route.city_to, Route.date_start, UserViewedRoute.viewed_at)\
+            .select_from(UserViewedRoute)\
+            .join(Route, UserViewedRoute.route_id == Route.id)\
+            .filter(UserViewedRoute.user_id == user_id)\
+            .order_by(UserViewedRoute.viewed_at.desc())
+        results = query.all()
+        history = []
+        for row in results:
+            history.append({
+              'city_from': row.city_from,
+              'city_to': row.city_to,
+              'date_start': row.date_start,
+              'viewed_at': row.viewed_at.strftime('%Y-%m-%d %H:%M:%S')
+            })
+        return history
+
     def _correct_time(self, to, fr, date_start, transport):
         """
         Функция получения затрат по времени (в часах) на путешествие на указанном виде транспорта.

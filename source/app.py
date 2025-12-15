@@ -109,6 +109,12 @@ def show_route():
                            img1=img1_path, img2=img2_path, route_data=route_data,
                            finish_date=finish_date, plot_cost=plot_cost, plot_time=plot_time)
 
+@app.route('/history')
+@login_required
+def show_history():
+    history_items = Wf.get_user_route_history(current_user.id)
+    return render_template('history.html', queries=history_items)
+
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:

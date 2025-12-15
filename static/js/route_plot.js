@@ -30,3 +30,12 @@ function toggleZoom() {
         parent.classList.add('zoomed');
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Параллельное переключение транспортных иконок
+    document.querySelectorAll('.transport-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    });
+})

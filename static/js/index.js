@@ -1,11 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Параллельное переключение транспортных иконок
-    document.querySelectorAll('.transport-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            this.classList.toggle('active');
-        });
-    });
-
     // Инициализация карты OpenLayers
     const map = new ol.Map({
         target: 'map',

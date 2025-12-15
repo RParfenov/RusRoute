@@ -3,6 +3,8 @@
     --secondary: #000;
     --light: #fff;
     --dark: #333;
+    --accent: #d4552b;
+    --accent2: #10ff04;
     --gray: #cfcfcf;
     --border: #ddd;
 }
@@ -22,7 +24,7 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1500;
 }
 
 .navbar-brand {
@@ -66,6 +68,43 @@ body {
     font-size: 1.2rem;
     color: #666;
     margin-bottom: 1rem;
+}
+
+.transport-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.transport-btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.transport-btn:hover {
+    background-color: var(--accent);
+    transform: scale(1.1);
+}
+
+.transport-btn.active {
+    background-color: var(--accent2);
+}
+
+.transport-btn img {
+    width: 24px;
+    height: 24px;
 }
 
 .image-container {
@@ -251,6 +290,7 @@ body {
 }
 
 .route-details {
+    position: relative;
     width: 100%;
     max-width: 800px;
     background: var(--light);
@@ -329,7 +369,7 @@ footer {
     align-items: center;
     position: sticky;
     bottom: 0;
-    z-index: 1000;
+    z-index: 1500;
 }
 
 .footer-content a {
@@ -370,5 +410,14 @@ footer {
     
     .route-details {
         padding: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .transport-icons {
+        top: 10px;
+        right: 10px;
+        transform: scale(0.9);
+        gap: 0.3rem;
     }
 }

@@ -202,43 +202,6 @@ body {
     overflow: hidden;
 }
 
-.transport-icons {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-}
-
-.transport-btn {
-    border: none;
-    width: 40px;
-    height: 40px;
-    background-color: var(--primary);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.transport-btn:hover {
-    background-color: var(--accent);
-    transform: scale(1.1);
-}
-
-.transport-btn.active {
-    background-color: var(--accent);
-}
-
-.transport-btn img {
-    width: 24px;
-    height: 24px;
-}
-
 .autocomplete {
     position: relative;
     display: inline-block;

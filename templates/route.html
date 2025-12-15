@@ -22,6 +22,7 @@
                 <div>                
                     <button class="btn btn-outline-light" onclick="window.location.href='/'">Вернуться на главную</button>
                     <button class="btn btn-outline-light" onclick="window.location.href='/plan'">Вернуться к поиску</button>
+                    <button class="btn btn-outline-light" onclick="window.location.href='/history'">Посмотреть историю</button>
                     <button class="btn btn-outline-light" onclick="window.location.href='/logout'">Выйти из системы</button>
                 </div>
             </div>
@@ -68,6 +69,22 @@
             
             <div class="route-details">
                 <h3>Детали маршрута</h3>
+
+                <div class="transport-icons">
+                    <div class="transport-btn" data-type="plane">
+                        <img src="{{ url_for('static', filename='icons/plane.png') }}" alt="Самолёт">
+                    </div>
+                    <div class="transport-btn" data-type="train">
+                        <img src="{{ url_for('static', filename='icons/train.png') }}" alt="Поезд">
+                    </div>
+                    <div class="transport-btn" data-type="car">
+                        <img src="{{ url_for('static', filename='icons/car.png') }}" alt="Машина">
+                    </div>
+                    <div class="transport-btn" data-type="money">
+                        <img src="{{ url_for('static', filename='icons/money.png') }}" alt="Цена">
+                    </div>
+                </div>
+
                 <div class="detail-item">
                     <span class="detail-label">Время прибытия:</span>
                     <span class="detail-value">{{ finish_date }}</span>
@@ -99,9 +116,6 @@
                 <span>© 2025 RusRoute, ПсковГУ (Парфенов Р., Журавлев И.)</span>
             </div>
             <div class="footer-links">
-                <a href="https://t.me/" target="_blank" aria-label="Telegram">
-                    <img src="https://data.chpic.su/stickers/l/LogoIconMa/LogoIconMa_002.webp" width="24" height="24" alt="Telegram">
-                </a>
                 <a href="https://github.com/RParfenov/RusRoute" target="_blank" aria-label="GitHub">GitHub</a>
             </div>
         </footer>
