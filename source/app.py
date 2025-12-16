@@ -72,15 +72,21 @@ def show_route():
     web_func = Wf()
     times = web_func.sorted_mass_time(city1, city2, date)
     costs = web_func.sorted_mass_cost(city1, city2)
-    route_data = dict()
-    for cost in costs:
-        if cost[1] == times[0][1]: # ищем нужный транспорт
-            transport_key = times[0][1] # получаем транспорт
-            route_data['transport'] = trans_transport.get(transport_key, {}).get('ru', transport_key) # переводим
-            route_data['cost'] = cost[0]
-            route_data['time'] = round(times[0][0], 1) # получаем время
-            break
-    finish_date = web_func.calculate_finish_date(date, route_data['time'])
+    cost_dict = {key: cost for cost, key in costs}
+
+    route_dict = dict()
+    for time_val, transport_key in times:
+        cost_val = cost_dict[transport_key]
+        transport_name = trans_transport.get(transport_key, {}).get('ru', transport_key) # получаем перевод
+        finish_date = web_func.calculate_finish_date(date, time_val)
+        route_dict[transport_key] = {
+            'transport_key': transport_key,
+            'transport_name': transport_name,
+            'time': round(time_val, 1),
+            'cost': cost_val,
+            'finish_date': finish_date
+        }
+
     route_images_data = web_func.get_route_image_from_db(user_is_authenticated=current_user.is_authenticated,
                                      user_id=current_user.id, city_from=city1, city_to=city2, date_start=date)
     if route_images_data is None:
@@ -106,8 +112,9 @@ def show_route():
         plot_time = get_plot_from_file(time_path)
 
     return render_template('route.html', city1=city1, city2=city2, date=date,
-                           img1=img1_path, img2=img2_path, route_data=route_data,
-                           finish_date=finish_date, plot_cost=plot_cost, plot_time=plot_time)
+                           img1=img1_path, img2=img2_path, plane_route=route_dict['plane'],
+                           train_route=route_dict['train'], free_trails_route=route_dict['free_trails'],
+                           toll_trails_route=route_dict['toll_trails'], plot_cost=plot_cost, plot_time=plot_time)
 
 @app.route('/history')
 @login_required

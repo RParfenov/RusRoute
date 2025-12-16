@@ -47,8 +47,8 @@ body {
     background-color: var(--light);
     border-radius: 15px;
     padding: 2px;
+    padding-bottom: 2.5rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    margin-bottom: 2remp;
 }
 
 .city-inputs {
@@ -185,7 +185,6 @@ body {
     border: 2px solid var(--border);
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
     margin-bottom: 1rem;
     padding-top: 56.25%; /* 16:9 */
     max-height: 400px; /* Максимальная высота */
@@ -199,7 +198,6 @@ body {
     height: 100%;
     border: none;
     border-radius: 8px;
-    overflow: hidden;
 }
 
 .autocomplete {
@@ -215,9 +213,9 @@ body {
     right: 0;
     border: 1px solid var(--border);
     border-top: none;
-    z-index: 20;
+    z-index: 10000;
     background: var(--light);
-    max-height: 200px;
+    max-height: 120px;
     overflow-y: auto;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
