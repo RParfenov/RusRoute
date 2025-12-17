@@ -46052,7 +46052,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Pereslavl-Zalessky": [
+    "routes_from_Pereslavl_Zalesky": [
       {
         "route": "Переславль-Залесский-Москва",
         "transport": "plane",
@@ -52404,7 +52404,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Yuzhno-Sakhalinsk": [
+    "routes_from_Yuzhno_Sakhalinsk": [
       {
         "route": "Южно-Сахалинск-Москва",
         "transport": "plane",
@@ -58756,7 +58756,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Minerals_Waters": [
+    "routes_from_Mineralnye_Vody": [
       {
         "route": "Минеральные Воды-Москва",
         "transport": "plane",
@@ -64314,7 +64314,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Naryan-Mar": [
+    "routes_from_Naryan_Mar": [
       {
         "route": "Нарьян-Мар-Москва",
         "transport": "plane",
@@ -65108,7 +65108,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Khanty-Mansiysk": [
+    "routes_from_Khanty_Mansiysk": [
       {
         "route": "Ханты-Мансийск-Москва",
         "transport": "plane",
@@ -67490,7 +67490,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Petropavlovsk-Kamchatsky": [
+    "routes_from_Petropavlovsk_Kamchatsky": [
       {
         "route": "Петропавловск-Камчатский-Москва",
         "transport": "plane",
@@ -73048,7 +73048,7 @@
         "additional_cost_details": "direct_flight"
       }
     ],
-    "routes_from_Komsomolsk-on-Amur": [
+    "routes_from_Komsomolsk_on_Amur": [
       {
         "route": "Комсомольск-на-Амуре-Москва",
         "transport": "plane",

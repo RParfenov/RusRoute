@@ -42388,7 +42388,7 @@
       "extra_description": ""
     }
   ],
-    "routes_from_Peresslavl_Zaleskiy": [
+    "routes_from_Pereslavl_Zalesky": [
     {
       "route": "Переславль-Залесский-Москва",
       "time": 3.0,
@@ -66018,7 +66018,7 @@
         "extra_description": ""
       }
     ],
-    "routes_from_Komsomolsk_na_Amure": [
+    "routes_from_Komsomolsk_on_Amur": [
       {
         "route": "Комсомольск-на-Амуре-Москва",
         "time": 68,

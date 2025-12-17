@@ -29899,7 +29899,7 @@
         "name_trails": "М-2"
       }
     ],
-    "routes_from_Ulan-Ude": [
+    "routes_from_Ulan_Ude": [
       {
         "route": "Улан-Удэ-Москва",
         "time": 72,
@@ -42409,7 +42409,7 @@
         "name_trails": "А-181/М-10"
       }
     ],
-    "routes_from_Sergiyev_Posad": [
+    "routes_from_Sergiev_Posad": [
       {
         "route": "Сергиев Посад-Москва",
         "time": 1,
@@ -43104,7 +43104,7 @@
         "name_trails": "М-8/А-107"
       }
     ],
-    "routes_from_Pereslavl_Zalessky": [
+    "routes_from_Pereslavl_Zalesky": [
       {
         "route": "Переславль-Залесский-Москва",
         "time": 2,
@@ -66482,7 +66482,7 @@
         "name_trails": "М-5/М-7"
       }
     ],
-    "routes_from_Komsomolsk_na_Amure": [
+    "routes_from_Komsomolsk_on_Amur": [
       {
         "route": "Комсомольск-на-Амуре-Москва",
         "time": 124,
