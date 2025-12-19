@@ -32,7 +32,7 @@ class Route(SqlAlchemyBase):
     time_image_path = Column(String(120), nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('city_from', 'city_to'),
+        UniqueConstraint('city_from', 'city_to', 'date_start'),
     )
 
     viewers = relationship('UserViewedRoute', back_populates='route', cascade='all, delete-orphan')
