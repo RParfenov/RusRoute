@@ -4,6 +4,7 @@ from source.handler_weather import HandlerWeather
 from datetime import datetime, timedelta
 from db_system.models import Route, UserViewedRoute
 from flask import g
+import math
 
 class WebFunc:
     def __init__(self):

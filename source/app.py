@@ -1,9 +1,11 @@
 import os
+import json
+import math
 import translations
 import matplotlib
 matplotlib.use('Agg')
 from dotenv import load_dotenv
-from flask import Flask, render_template, request, flash, redirect, url_for, g, session
+from flask import Flask, render_template, request, flash, redirect, url_for, g, session, jsonify
 from flask_login import LoginManager, login_required, current_user, login_user, logout_user
 from web_functional import WebFunc as Wf
 from db_system.config import DATABASE_URL, create_session, global_init
@@ -17,6 +19,7 @@ trans_transport = translations.TRANSPORT_TYPES_TRANSLATIONS
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 IMAGE_DIR = os.path.join(PROJECT_ROOT, 'db', 'images')
+JSON_DIR = os.path.join(PROJECT_ROOT, 'data')
 
 # Указываем путь к templates и static
 app = Flask(__name__,
@@ -25,6 +28,8 @@ app = Flask(__name__,
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+API_KEY = os.environ.get('YANDEX_STATIC_API_KEY')
 
 global_init()
 
@@ -55,6 +60,101 @@ def index():
 @login_required
 def plan():
     return render_template('plan.html')
+
+@app.route('/get-map-image')
+@login_required
+def get_map_image():
+    city_from_rus = request.args.get('from', '').strip()
+    city_to_rus = request.args.get('to', '').strip()
+
+    if not city_from_rus or not city_to_rus:
+        return jsonify({'error': 'Оба города обязательны'}), 400
+
+    def get_en_key(rus_name):
+        entry = trans_city.get(rus_name)
+        return entry['en'] if entry else None
+
+    city_from_en = get_en_key(city_from_rus)
+    city_to_en = get_en_key(city_to_rus)
+
+    if not city_from_en or not city_to_en:
+        return jsonify({'error': 'Один из городов не поддерживается'}), 400
+
+    json_path = os.path.join(PROJECT_ROOT, 'data', 'info_city.json')
+    try:
+        with open(json_path, encoding='utf-8') as f:
+            cities_data = json.load(f)['cities']
+    except Exception as e:
+        return jsonify({'error': 'Ошибка загрузки данных о городах'}), 500
+
+    def get_coords(en_key):
+        city_info = cities_data.get(en_key)
+        if city_info:
+            return city_info['width'], city_info['longitude']
+        return None, None
+
+    lat1, lon1 = get_coords(city_from_en)
+    lat2, lon2 = get_coords(city_to_en)
+
+    if lat1 is None or lon1 is None or lat2 is None or lon2 is None:
+        return jsonify({'error': 'Не найдены координаты для одного из городов'}), 404
+
+    center_lon = (lon1 + lon2) / 2
+    center_lat = (lat1 + lat2) / 2
+
+    zoom = 4
+
+    pt = f"{lon1},{lat1},pm2dgl~{lon2},{lat2},pm2dbl"
+    if not API_KEY:
+        return jsonify({'error': 'API-ключ карт не настроен'}), 500
+
+    map_url = (
+        f"https://static-maps.yandex.ru/v1?"
+        f"ll={center_lon:.6f},{center_lat:.6f}&"
+        f"size=600,400&"
+        f"z={zoom}&"
+        f"pt={pt}&"
+        f"lang=ru_RU&"
+        f"apikey={API_KEY}"
+    )
+
+    return jsonify({'map_url': map_url})
+
+@app.route('/map/<city_name>')
+@login_required
+def show_map(city_name):
+    json_path = os.path.join(JSON_DIR, 'info_city.json')
+    try:
+        with open(json_path, encoding='utf-8') as f:
+            cities_data = json.load(f)['cities']
+    except FileNotFoundError:
+        flash('Файл с данными городов не найден.', 'danger')
+        return redirect(url_for('plan'))
+
+    target_city = None
+    for key, info in cities_data.items():
+        if info['name'] == city_name:
+            target_city = info
+            break
+
+    if not target_city:
+        flash(f'Город "{city_name}" не найден.', 'warning')
+        return redirect(url_for('plan'))
+
+    lat = target_city['width']
+    lon = target_city['longitude']
+
+    delta_lat = 5 / 111
+    delta_lon = 5 / (111 * math.cos(math.radians(lat)))
+
+    min_lat = lat - delta_lat
+    max_lat = lat + delta_lat
+    min_lon = lon - delta_lon
+    max_lon = lon + delta_lon
+
+    bbox = f"{min_lon:.6f},{min_lat:.6f},{max_lon:.6f},{max_lat:.6f}"
+    map_url = f"https://www.openstreetmap.org/export/embed.html?bbox={bbox}&layer=mapnik"
+    return render_template('map.html', map_url=map_url, city_name=city_name)
 
 @app.route('/route')
 @login_required
@@ -90,7 +190,6 @@ def show_route():
     route_images_data = web_func.get_route_image_from_db(user_is_authenticated=current_user.is_authenticated,
                                      user_id=current_user.id, city_from=city1, city_to=city2, date_start=date)
     if route_images_data is None:
-        try:
             time_image_path = save_plot_as_png(to=city2, fr=city1, date=date, filter_name='time',
                                                type_name='bar', output_dir=IMAGE_DIR)
             cost_image_path = save_plot_as_png(to=city2, fr=city1, date=date, filter_name='cost',
@@ -100,8 +199,6 @@ def show_route():
                                          cost_image_path=cost_image_path, time_image_path=time_image_path)
             plot_cost = get_plot_from_file(cost_image_path)
             plot_time = get_plot_from_file(time_image_path)
-        except Exception as e:
-            plot_cost = plot_time = None
     else:
         cost_path = route_images_data['cost_image_path']
         time_path = route_images_data['time_image_path']

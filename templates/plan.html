@@ -52,22 +52,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="btn-container">
-                    <a href="/route" id="show-route-btn" class="show-route-btn">Показать маршрут</a>
-                </div>
-            </div>
 
-            <div class="route-info">
-                <!-- Карта -->
-                <div class="map-area">
-                    <iframe
-                        src="https://www.openstreetmap.org/export/embed.html?bbox=37.6156%2C55.7522%2C37.6325%2C55.7625&amp;layer=mapnik"
-                        frameborder="0"
-                        scrolling="no"
-                        marginheight="0"
-                        marginwidth="0"
-                        style="border: none; border-radius: 8px; width: 100%; height: 100%;">
-                    </iframe>
+                <div class="btn-container">
+                    <button class="show-route-btn" onclick="showMapPreview()">Показать города на карте</button>
+                </div>
+
+                <div id="map-preview" style="display: none; margin-top: 20px;">
+                    <div class="route-info">
+                        <h5>Карта маршрута</h5>
+                        <div class="map-area">
+                            <img id="map-image" src="" alt="Карта маршрута" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;">
+                        </div>
+
+                        <div class="btn-container mt-3">
+                            <button type="button" class="show-route-btn" onclick="showCityOnMap('from')">
+                                Посмотреть "Откуда" на карте
+                            </button>
+                            <button type="button" class="show-route-btn" onclick="showCityOnMap('to')">
+                                Посмотреть "Куда" на карте
+                            </button>
+                            <a href="/route" class="show-route-btn">Показать данные маршрута</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

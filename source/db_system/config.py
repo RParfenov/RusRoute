@@ -21,7 +21,6 @@ def global_init():
     global __factory
     if __factory is not None:
         return
-    # TODO: После завершения работы над бекендом, поставить параметр echo=False
     engine = create_engine(DATABASE_URL)
     __factory = sessionmaker(bind=engine)
 
