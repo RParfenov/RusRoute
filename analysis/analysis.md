@@ -1,3 +1,7 @@
+# Графики
+![Market_analysis](market_analysis.png)
+![Weather_analysis](weather_analysis.png)
+![Services_analysis](services_analysis.png)
 # Выводы по анализу данных
 ## 1. Погодные условия как важный фактор планирования маршрута путешествий  
 
