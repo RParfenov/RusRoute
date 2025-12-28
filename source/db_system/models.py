@@ -5,6 +5,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 SqlAlchemyBase = declarative_base()
 
+
 class User(UserMixin, SqlAlchemyBase):
     __tablename__ = 'users'
 
@@ -21,6 +22,7 @@ class User(UserMixin, SqlAlchemyBase):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
+
 class Route(SqlAlchemyBase):
     __tablename__ = 'routes'
 
@@ -36,6 +38,7 @@ class Route(SqlAlchemyBase):
     )
 
     viewers = relationship('UserViewedRoute', back_populates='route', cascade='all, delete-orphan')
+
 
 class UserViewedRoute(SqlAlchemyBase):
     __tablename__ = 'user_viewed_routes'

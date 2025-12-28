@@ -6,6 +6,7 @@ from db_system.models import Route, UserViewedRoute
 from flask import g
 import math
 
+
 class WebFunc:
     def __init__(self):
         self.roads_handler_free = HandlerFiles('free-trails_city.json')
@@ -20,6 +21,7 @@ class WebFunc:
     def _calculate_weather_modifier(dataframe_from, dataframe_to):
         if dataframe_from.empty or dataframe_to.empty:
             return 1.0
+
         def compute_modifier_for_city(dataframe):
             avg_visibility = dataframe['visibility'].mean()
             avg_precipitation = dataframe['precipitation'].mean()
@@ -65,7 +67,7 @@ class WebFunc:
         :param time_delta: Длительность поездки в часах
         :return: finish_date - дата конца поездки (str)
         """
-        start_dt = datetime.fromisoformat(start_date) # ISO формат даты как раз YYYY-MM-DD
+        start_dt = datetime.fromisoformat(start_date)  # ISO формат даты как раз YYYY-MM-DD
         finish_dt = start_dt + timedelta(hours=time_delta)
         return finish_dt.date().isoformat()
 
@@ -117,7 +119,7 @@ class WebFunc:
             raise PermissionError('Пользователь не авторизован')
 
         route = g.db.query(Route).filter_by(city_from=city_from,
-                                                      city_to=city_to, date_start=date_start).first()
+                                            city_to=city_to, date_start=date_start).first()
         if not route:
             return None
 
@@ -133,19 +135,19 @@ class WebFunc:
         :param user_id: айди пользователя
         :return: список словарей запросов пользователя
         """
-        query = g.db.query(Route.city_from, Route.city_to, Route.date_start, UserViewedRoute.viewed_at)\
-            .select_from(UserViewedRoute)\
-            .join(Route, UserViewedRoute.route_id == Route.id)\
-            .filter(UserViewedRoute.user_id == user_id)\
+        query = g.db.query(Route.city_from, Route.city_to, Route.date_start, UserViewedRoute.viewed_at) \
+            .select_from(UserViewedRoute) \
+            .join(Route, UserViewedRoute.route_id == Route.id) \
+            .filter(UserViewedRoute.user_id == user_id) \
             .order_by(UserViewedRoute.viewed_at.desc())
         results = query.all()
         history = []
         for row in results:
             history.append({
-              'city_from': row.city_from,
-              'city_to': row.city_to,
-              'date_start': row.date_start,
-              'viewed_at': row.viewed_at.strftime('%Y-%m-%d %H:%M:%S')
+                'city_from': row.city_from,
+                'city_to': row.city_to,
+                'date_start': row.date_start,
+                'viewed_at': row.viewed_at.strftime('%Y-%m-%d %H:%M:%S')
             })
         return history
 
@@ -204,7 +206,7 @@ class WebFunc:
             (self.plane_handler.get_info_route(to, fr)['cost'], "plane"),
             (self.roads_handler_toll.get_info_route(to, fr)['fuel_cost'] +
              self.roads_handler_toll.get_info_route(to, fr)['trails_cost'], "toll_trails"
-            ),
+             ),
             (self.roads_handler_free.get_info_route(to, fr)['fuel_cost'], "free_trails"),
         ]
         return sorted(costs, key=lambda x: x[0])

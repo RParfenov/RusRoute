@@ -9,11 +9,13 @@ destination = os.path.join(current_dir, '..', 'data', 'popular_routes.csv')
 destination_detailed_info = os.path.join(current_dir, '..', 'data', 'detailed_info_about_cities.json')
 destination_info_city = os.path.join(current_dir, '..', 'data', 'info_city.json')
 
+
 def load_info_cities(path):
     with open(path, 'r', encoding='utf-8') as json_file:
         data = json.load(json_file)
 
     return pd.DataFrame(data['cities'].values())
+
 
 def calculate_data_for_matrix(df_info_city, df_detailed_info):
     # 1. расстояние между городами
@@ -25,7 +27,7 @@ def calculate_data_for_matrix(df_info_city, df_detailed_info):
     lon2 = np.radians(longitude[np.newaxis, :])
     d_lat = lat2 - lat1
     d_lon = lon2 - lon1
-    a = np.sin(d_lat/2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(d_lon/2)**2
+    a = np.sin(d_lat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(d_lon / 2) ** 2
     c = 2 * np.arcsin(np.sqrt(a))
     distance_matrix = 6371 * c
 
@@ -36,6 +38,7 @@ def calculate_data_for_matrix(df_info_city, df_detailed_info):
     d_sal = sal2 - sal1
 
     return distance_matrix, d_sal
+
 
 def add_route_features(df_popular_routes, df_info_city, df_detailed_info):
     distance_matrix, d_sal = calculate_data_for_matrix(
@@ -53,8 +56,9 @@ def add_route_features(df_popular_routes, df_info_city, df_detailed_info):
 
     return df_popular_routes
 
+
 def visualize_market_analysis():
-    top_20 = 20 # рассматриваем топ 20 самых популярных маршрутов
+    top_20 = 20  # рассматриваем топ 20 самых популярных маршрутов
     df_popular_routes = pd.read_csv(destination)
 
     sorted_df = df_popular_routes.sort_values(by=['estimated_travelers_per_year'], ascending=False)
@@ -117,5 +121,6 @@ def visualize_market_analysis():
     ax4.set_ylabel('Город')
     ax4.grid(True, alpha=0.3, linestyle='--', linewidth=0.5)
     plt.show()
+
 
 visualize_market_analysis()

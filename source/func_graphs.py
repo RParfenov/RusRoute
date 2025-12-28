@@ -5,6 +5,7 @@ from io import BytesIO
 import base64
 from source.handler_files import HandlerFiles
 
+
 def plot_transport(to: str, fr: str, filter_name: str, type_name: str):
     """
     Строит график зависимости вида транспорта от выбранного фильтра (цена, время, расстояние).
@@ -97,7 +98,8 @@ def plot_transport(to: str, fr: str, filter_name: str, type_name: str):
     img_base64 = base64.b64encode(buf.read()).decode('utf-8')
     return img_base64
 
-def save_plot_as_png(to: str, fr: str, date: str,  filter_name: str, type_name: str, output_dir: str):
+
+def save_plot_as_png(to: str, fr: str, date: str, filter_name: str, type_name: str, output_dir: str):
     """
     Генерирует график и сохраняет его как PNG-файл в указанную директорию.
     Args:
@@ -122,6 +124,7 @@ def save_plot_as_png(to: str, fr: str, date: str,  filter_name: str, type_name: 
     with open(filepath, 'wb') as f:
         f.write(img_data)
     return filepath
+
 
 def get_plot_from_file(filepath: str):
     """

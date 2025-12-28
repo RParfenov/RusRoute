@@ -3,7 +3,6 @@ import json
 import math
 import translations
 import matplotlib
-matplotlib.use('Agg')
 from dotenv import load_dotenv
 from flask import Flask, render_template, request, flash, redirect, url_for, g, session, jsonify
 from flask_login import LoginManager, login_required, current_user, login_user, logout_user
@@ -12,6 +11,7 @@ from db_system.config import DATABASE_URL, create_session, global_init
 from db_system.models import User
 from source.func_graphs import save_plot_as_png, get_plot_from_file
 
+matplotlib.use('Agg')
 load_dotenv()
 
 trans_city = translations.CITY_TRANSLATIONS
@@ -39,7 +39,7 @@ def before_request():
 
 @app.teardown_appcontext
 def close_db(error):
-    if hasattr(g, 'SqlAlchemyBase'):
+    if hasattr(g, 'db'):
         g.db.close()
 
 login_manager = LoginManager()

@@ -17,6 +17,7 @@ DATABASE_URL = f'sqlite:///{database_path}'
 
 __factory = None
 
+
 def global_init():
     global __factory
     if __factory is not None:
@@ -26,7 +27,7 @@ def global_init():
 
     models.SqlAlchemyBase.metadata.create_all(engine)
 
+
 def create_session() -> Session:
     global __factory
     return __factory()
-

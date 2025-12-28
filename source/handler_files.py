@@ -2,6 +2,7 @@ import json
 import os
 import translations
 
+
 class HandlerFiles:
     def __init__(self, name_file):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))

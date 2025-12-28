@@ -1,6 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 
+
 def plot_average_times(json_file_path: str) -> dict:
     """
     Читает JSON-файл с данными о сервисах, вычисляет среднее время для каждого,

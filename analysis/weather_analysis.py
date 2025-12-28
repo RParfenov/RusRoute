@@ -6,6 +6,7 @@ import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(current_dir, '..', 'data', 'weather.json')
 
+
 def load_weather_data():
     with open(data_dir, 'r', encoding='utf-8') as json_file:
         weather_data = json.load(json_file)
@@ -29,6 +30,7 @@ def load_weather_data():
                 }
                 records.append(record)
     return pd.DataFrame(records)
+
 
 def visualize_weather_impact(weather_data):
     weather_counts = weather_data['weather_phenomenon'].value_counts()
@@ -61,7 +63,8 @@ def visualize_weather_impact(weather_data):
 
     bad_weather = ['дождь', 'снег с дождем', 'снег', 'мокрый снег']
     city_bad_weather = weather_data[weather_data['weather_phenomenon'].isin(bad_weather)]
-    city_bad_counts = city_bad_weather['city'].value_counts().head(10) # топ 10 городов с максимальным числом периодов с плохой погодой
+    city_bad_counts = city_bad_weather['city'].value_counts().head(
+        10)  # топ 10 городов с максимальным числом периодов с плохой погодой
 
     ax3.barh(range(len(city_bad_counts)), city_bad_counts.values, color='orange', alpha=0.7)
     ax3.set_yticks(range(len(city_bad_counts)))
@@ -84,6 +87,7 @@ def visualize_weather_impact(weather_data):
 
     plt.tight_layout()
     plt.show()
+
 
 weather_df = load_weather_data()
 visualize_weather_impact(weather_df)

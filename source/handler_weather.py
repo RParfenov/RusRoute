@@ -2,6 +2,7 @@ import os
 import json
 import pandas as pd
 
+
 class HandlerWeather:
     def __init__(self, file_name):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
